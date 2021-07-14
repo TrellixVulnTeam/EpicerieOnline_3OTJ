@@ -1,0 +1,93 @@
+
+/*  footer*/
+
+.footer {
+    margin-top:5rem;
+  width: 100vw !important;
+  background-color:white;
+  border-top:15px solid grey;
+  text-align:center;
+}
+
+  .footer .box-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .footer .box-container .box {
+    padding: 1rem 0;
+    flex: 1 1 25rem;
+  }
+
+    .footer .box-container .box .share a {
+      padding: 0;
+      height: 4rem;
+      width: 4rem;
+      line-height: 4rem;
+      text-align: center;
+    }
+
+    .footer .box-container .box h3 {
+      font-size: 2.5rem;
+      color: var(--dark);
+    }
+
+    .footer .box-container .box p {
+      font-size: 1.3rem;
+      color: var(--dark);
+      padding: 0.7rem 0;
+    }
+
+    .footer .box-container .box .links {
+      padding: 1rem 0;
+    }
+
+      .footer .box-container .box .links a {
+        display: block;
+        padding: 0.5rem 0;
+        font-size: 1.7rem;
+        color: #333;
+      }
+
+        .footer .box-container .box .links a:hover {
+          text-decoration: underline;
+          color: var(--dark);
+        }
+
+.footer .credit {
+  padding: 2.5rem 1rem;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+  .footer .credit span {
+    color: var(--dark);
+  }
+  .footer .fab{
+      margin:0.5rem;
+  }
+
+
+  @media (max-width: 1400px) {
+    .footer {
+      width:90%
+  }
+}
+
+
+
+@media (max-width: 1050px) {
+  .footer {
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+}

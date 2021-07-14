@@ -1,0 +1,113 @@
+<!--Notification-->
+<app-notification *ngIf="notificationGreenNew" class="theme-green">
+    <span class="msg-text-add">Un nouveau produit a été ajouté.</span>
+</app-notification>
+
+<app-notification *ngIf="notificationGreenEdit" class="theme-green">
+    <span class="msg-text-add">Le produit a été modifié.</span>
+</app-notification>
+
+<app-notification *ngIf="notificationRed" class="theme-red">
+    <span class="msg-text-add">Quelque chose s'est mal passé.</span>
+</app-notification>
+
+<app-notification *ngIf="notificationRedAdmin" class="theme-red">
+    <span class="msg-text-add">Vous devez être un administrateur pour effectuer cette opération.</span>
+</app-notification>
+<!--------------->
+
+
+<div class="add-product-title">
+    <span class="admin-title">Ajouter le produit</span>
+    <a routerLink="/admin/product/" class="fas fa-arrow-left"></a>
+</div>
+
+
+<div class="product-form-box">
+    <form class="product-form">
+
+        <label class="product-form-label" for="title">Titre</label>
+        <input class="product-form-input" [(ngModel)]="product.title" name="title" type="text" id="title" />
+        <br>
+
+        <label class="product-form-label" for="price">Prix</label>
+        <div class="product-form-input-price">
+            <input class="product-form-input-price-item" [(ngModel)]="product.price" name="price" type="text" id="price" />
+
+            <label class="product-form-price-label" for="price">Unité</label>
+            <select class="product-form-input-price-item" [(ngModel)]="product.unit" name="unit">
+                <option value=""></option>
+                <option *ngFor="let u of units" value="{{u}}">{{u}}</option>
+            </select>
+        </div>
+        <br>
+
+
+        <label class="product-form-label" for="category">Catégorie</label>
+        <select class="product-form-input" [(ngModel)]="product.categoryId" name="category">
+            <option value=""></option>
+            <option *ngFor="let c of categories" value="{{c.id}}">{{c.name}}</option>
+        </select>
+
+        <label class="product-form-label" for="imageUrl">Photo</label>
+        <input class="product-form-input" [(ngModel)]="product.imageUrl" name="imageUrl" type="text" id="imageUrl" />
+
+
+        <label class="product-form-label" for="description">Description</label>
+        <textarea class="product-form-area" [(ngModel)]="product.description" name="description" type="text" id="description" rows="5 " cols="70" style="resize: none;"></textarea>
+
+        <button class="btn product-form-btn" (click)="addProduct()">Sauvegarder</button>
+
+
+
+    </form>
+
+
+    <div class="product-card-side">
+
+
+        <div class="product-card">
+
+            <div class="product-favorite">
+                <i (click)="onFavorite()" class="fa-heart" [ngClass]="{'far': !isFavorite,'fas':isFavorite}"></i>
+            </div>
+
+
+            <div class="product-img">
+                <img class="img-img"
+                     [src]="product.imageUrl"
+                     alt="image"
+                     *ngIf="product.imageUrl" />
+            </div>
+
+            <div class="product-price">
+
+                <span class="price-price"> {{product.price | currency: "EUR"}}/ {{product.unit}} </span>
+                <span class="title-title">{{product.title}}</span>
+
+
+            </div>
+
+            <div class="product-title">
+
+                <p class="title-discription">{{product.description}}</p>
+            </div>
+
+            <div class="btn product-btn"><span class="product-btn-btn">Ajouter au panier </span> <i class="fas fa-cart-plus"></i></div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+</div>
+

@@ -1,0 +1,101 @@
+.alert {
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  top: 1rem;
+  right: 0;
+  z-index: 9999999999999;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+
+
+:host-context(.theme-green) div {
+  background-color: rgba(86,184,84,0.9);
+  border-left: 8px solid #76f375;
+}
+
+  :host-context(.theme-green) div div:hover {
+    background: #76f375;
+  }
+
+:host-context(.theme-red) div {
+  background-color: rgba(193,40,31,0.9);
+  border-left: 8px solid #f35c58;
+}
+
+  :host-context(.theme-red) div div:hover {
+    background: #f35c58;
+  }
+
+
+
+
+
+.alert.show {
+  animation: show_slide 1s ease forwards;
+  color: white !important;
+}
+
+@keyframes show_slide {
+  0% {
+    transform: translateX(100%);
+  }
+
+  40% {
+    transform: translateX(-10%);
+  }
+
+  80% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+.alert.hide {
+  opacity: 0;
+}
+
+.alert .fa-exclamation-circle {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white !important;
+  font-size: 30px;
+}
+
+.alert .msg {
+  padding: 0 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.alert .close-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white !important;
+  padding: 20px 18px;
+  cursor: pointer;
+}
+
+  .alert .close-btn:hover {
+  }
+
+
+.close-btn .fa-times {
+  color: white;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+  .close-btn .fa-times:hover {
+    color: rgb(2,113,220);
+  }

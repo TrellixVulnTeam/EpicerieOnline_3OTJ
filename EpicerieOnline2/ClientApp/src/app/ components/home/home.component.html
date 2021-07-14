@@ -1,0 +1,121 @@
+<!--<app-user-profile></app-user-profile>-->
+
+<section class="home" id="home">
+    <div class="image">
+        <img src="../../assets/images/del_3.png" alt="" />
+    </div>
+
+    <div class="content">
+        <span><i>livraison rapide <span class="heur">(maximum 1H) </span></i></span>
+        <h3>Produits toujours frais</h3>
+        <a href="#categories" class="btn" style="padding: 1rem 3rem">Commencer les courses<i class="fas fa-shopping-cart"></i></a>
+    </div>
+</section>
+
+<!-- categories section starts  -->
+
+<div class="home-small"></div>
+
+
+<div class="categories" id="categories">
+    <section class="banner-container" >
+
+        <!--<h1 class="heading">Nos <span>Catégories</span></h1>-->
+
+        <div *ngFor="let c of categories"
+             class="banner"
+             [routerLink]="['/products', c.id]">
+
+            <img src="{{c.imageCatUrl}}" alt="" />
+            <div class="content2">
+                <h3 class="title-title">{{c.name}}</h3>
+
+            </div>
+        </div>
+
+
+    </section>
+</div>
+
+    <!-- categories section ends -->
+    <!-- product section starts  -->
+
+    <div class="home-small"></div>
+
+<div class="products">
+    <section class="product-container" >
+
+        <!--<h1 class="heading">Nos <span>produits</span></h1>-->
+
+
+
+
+
+
+        <div *ngFor="let p of products" class="product-card">
+
+            <div class="product-favorite">
+                <span class="price-price"> {{p.price | currency: "EUR"}}/ {{p.unit}} </span>
+
+                <i (click)="onFavorite(p.id)" class="fa-heart" [ngClass]="{'far': !p.ifFavorite, 'fas': p.ifFavorite}"></i>
+            </div>
+
+
+            <div class="product-img">
+                <img class="img-img"
+                     [src]="p.imageUrl"
+                     alt="image"
+                     *ngIf="p.imageUrl" />
+            </div>
+
+
+
+
+
+            <div class="product-title">
+                <span class="product-title">{{p.title}} </span>
+                <p class="title-discription">{{p.description}}</p>
+            </div>
+
+
+            <div class="quantity">
+                <span>quantité : </span>
+                <input #quantity type="number" min="1" max="5" value="1" />
+                <span> /{{p.unit}} </span>
+            </div>
+
+            <div class="btn product-btn" (click)="addProduct(p, quantity.value)"><span class="product-btn-btn">Ajouter au panier </span> <i class="fas fa-cart-plus"></i></div>
+        </div>
+    </section>
+</div>
+<!-- product section ends -->
+
+
+<div class="home-small"></div>
+
+
+<!-- contact section starts  -->
+<div class="contact">
+<section class="contact-container" id="contact">
+    <h1 class="heading"><span>Nous </span> contacter</h1>
+
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="name" />
+            <input type="email" placeholder="email" />
+        </div>
+
+
+
+        <textarea placeholder="message"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"></textarea>
+
+        <input type="submit" value="Envoyer un message" class="btn" />
+    </form>
+</section>
+    </div>
+
+<!-- contact section ends -->
