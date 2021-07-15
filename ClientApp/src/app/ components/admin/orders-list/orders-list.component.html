@@ -1,0 +1,97 @@
+    <!--Notification-->
+<app-notification *ngIf="notificationValide" class="theme-green">
+    <span class="msg-text-add"> Un confirmation a été envoyé à l'utilisateur.</span>
+</app-notification>
+
+
+<app-notification *ngIf="notificationDelete" class="theme-red">
+    <span class="msg-text-add">La commande a été supprimée.</span>
+</app-notification>
+
+<app-notification *ngIf="notificationAdminError" class="theme-red">
+    <span class="msg-text-add">Vous devez être un administrateur pour effectuer cette opération.</span>
+</app-notification>
+
+
+
+<div action="" class="search-box-container search-prd">
+
+    <span class="admin-title">Liste de orders</span>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<table class="tbl">
+    <thead>
+        <tr>
+            <th style="width:5%">ID</th>
+            <th style="width:12%">CustomerId + Name</th>
+            <th>Date</th>
+            <th>Adresse</th>
+            <th style="width:5%">Est Valider</th>
+            <th style="width:5%">Est Terminé</th>
+            <th style="width:5%">Voir</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let o of orders">
+            <td class="td-img" ><i class="fas fa-trash-alt"(click)="delete(o)"></i><p>{{o.id}}</p></td>
+            <td><p class="td-title">{{o.customer.id}} - {{o.name}}</p></td>
+            <td class="td-price"><p>{{o.date}}</p> </td>
+            <td class="td-price"><p>{{o.address}}</p> </td>
+            <td class="td-price"><input type="checkbox" [(ngModel)]="o.isValidate" (click)="$event.preventDefault()" /> </td>
+            <td class="td-price"><input type="checkbox" [(ngModel)]="o.isCompleted"   (click)="$event.preventDefault()"  /> </td>
+            <td class="td-price" (click)="showModal(o)"><i class="fas fa-eye" style="font-size:1.5rem;"></i></td>
+
+
+
+
+
+
+        </tr>
+
+    </tbody>
+
+</table>
+
+
+
+
+<!-- Modal -->
+<div id="myModal" class="modal" [class.show-modal]="showmodal">
+
+    <div class="modal-content">
+        <span class="close" (click)="showmodal = !showmodal">&times;</span>
+        <h3>Liste des produits commandés</h3>
+        <ul>
+            <li *ngFor="let p of orderDetails.products">
+                <p> {{p.title}}  x{{p.quantity}}</p>
+            </li>
+        </ul>
+
+        <br />
+        <button (click)="valide()" class="btn">Validé la commande </button>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+

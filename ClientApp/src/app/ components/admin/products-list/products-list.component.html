@@ -1,0 +1,89 @@
+<!--Notification-->
+<app-notification *ngIf="notificationGreen" class="theme-green">
+    <span class="msg-text-add">Le produit a été retiré.</span>
+</app-notification>
+
+<app-notification *ngIf="notificationRed" class="theme-red">
+    <span class="msg-text-add">Quelque chose s'est mal passé.</span>
+</app-notification>
+
+<app-notification *ngIf="notificationRedAdmin" class="theme-red">
+    <span class="msg-text-add">Vous devez être un administrateur pour effectuer cette opération.</span>
+</app-notification>
+<!--------------->
+
+
+
+
+
+    <div action="" class="search-box-container search-prd">
+
+        <span class="admin-title">Liste de produits</span>
+
+        <input #query
+               (keyup)="filter(query.value)"
+               class="search-product"
+               type="search"
+               placeholder="Rechercher un produit..." />
+
+
+        <div class="box-select-categories">
+            <label id="cat" for="category">Category</label>
+            <select #categoryId
+                    (change)="onSelect(categoryId.value)"
+                    name="category"
+                    id="category"
+                    class="select-categories">
+                <option value="">Tout</option>
+                <option *ngFor="let c of categories" value="{{c.id}}">{{c.name}}</option>
+
+                <!--<option *ngFor="let c of categories" [value]="c.idcategory">
+
+                </option>-->
+            </select>
+            <!--<div *ngIf="category?.touched && category?.invalid"
+                 class="alert alert-danger">
+                Category is required.
+            </div>-->
+        </div>
+
+
+        <span class="add-prod">
+            <a routerLink="/admin/product/new" class="btn-admin">Ajouter</a><span class="fas fa-plus"></span>
+
+        </span>
+
+
+
+
+
+    </div>
+
+    <table class="tbl">
+        <thead>
+            <tr>
+
+                <th>Photo</th>
+                <th>Titre/Description</th>
+                <th>Prix/Unité</th>
+                <th></th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of filterProducts">
+                <td class="td-img"><img src={{p.imageUrl}} /></td>
+                <td><p class="td-title">{{p.title}}</p><p class="td-description">{{p.description}}</p></td>
+                <td class="td-price"><p>{{p.price | currency:'EUR'}}/{{p.unit}}</p>  </td>
+                <td class="td-btn"><button [routerLink]="['/admin/product', p.id]" class="btn-edit"><i class="fas fa-edit"></i></button>  <button (click)="onDelete(p.id)" class="btn-delete"><i class="fas fa-trash-alt"></i></button> </td>
+
+            </tr>
+
+
+        </tbody>
+    </table>
+
+
+ 
+
+

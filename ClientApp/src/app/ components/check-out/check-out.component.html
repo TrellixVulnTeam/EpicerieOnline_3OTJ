@@ -1,0 +1,149 @@
+    <!--Notification-->
+<app-notification *ngIf="notificationOrderSend" class="theme-green">
+    <span class="msg-text-add">La commande a été enregistrée.</span>
+</app-notification>
+
+<app-notification *ngIf="notificationOrderError" class="theme-red">
+    <span class="msg-text-add">Quelque chose s'est mal passé.</span>
+</app-notification>
+
+
+<div class="box-check-out">
+
+
+
+    <div class="container-check-out">
+
+        <div class="container-check-out-top">
+
+            <h2>Finaliser ma commande</h2>
+
+        </div>
+
+        <div *ngIf="!orderSend" class="container-check-out-bottom">
+
+
+
+
+            <form class="container-check-out-bottom-left" #f="ngForm" (ngSubmit)="submit(f.value)" id="ngForm">
+
+                <div class="container-check-out-bottom-left-item">
+                    <label>Prénom et nom</label>
+                    <input name="name" #name="ngModel" ngModel />
+                </div>
+
+                <div class="container-check-out-bottom-left-item">
+                    <label>Adresse ligne 1</label>
+                    <input name="adresse_1" #adresse_1="ngModel" ngModel />
+                </div>
+
+                <div class="container-check-out-bottom-left-item">
+                    <label>Adresse ligne 2</label>
+                    <input name="adresse_2" #adresse_2="ngModel" ngModel />
+                </div>
+
+                <div class="container-check-out-bottom-left-item">
+                    <label>Ville</label>
+                    <input name="city" #city="ngModel" ngModel />
+                </div>
+
+
+                <div class="container-check-out-bottom-left-item">
+                    <label>Code postal</label>
+                    <input name="code_post" #code_post="ngModel" ngModel />
+                </div>
+
+                <div class="container-check-out-bottom-left-item">
+                    <label>Numéro de téléphone</label>
+                    <input name="phone_number" #phone_number="ngModel" ngModel />
+                </div>
+
+            </form>
+
+
+
+
+            <div class="container-check-out-bottom-right">
+
+                <h3>Votre panier </h3>
+
+                <ul>
+                    <li *ngFor="let p of panierInfo.products">
+
+                        <div class="product-delete-box" (click)="delete(p)">
+                            <i class="fas fa-minus-circle"></i>
+                        </div>
+
+                        <div class="product-img-box">
+                            <div class="product-img">
+                                <img [src]="p.imageUrl" />
+                            </div>
+                        </div>
+
+
+                        <div class="product-title-box">
+                            <p class="product-title">{{p.title}}</p>
+                            <p class="product-quantity">Qté: {{p.quantity}}</p>
+                        </div>
+
+
+                        <div class="product-price-box ">
+                            <p class="product-price-total"> {{p.price * p.quantity| currency:'EUR'}} </p>
+                        </div>
+
+
+                    </li>
+                </ul>
+
+                <div class="price-total">
+
+                    <p>Prix total</p>
+
+                    <p>{{panierInfo.totalPrice | currency:'EUR'}}</p>
+
+
+                </div>
+
+                <div style="text-align:center;padding:1rem;cursor:pointer">
+
+                    <button form="ngForm" style="padding:1rem;" class="btn">Valider votre commande et payer <i class="far fa-credit-card"></i></button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div *ngIf="orderSend" class="container-check-out-bottom confirmation">
+
+
+
+
+            <h3>Votre commande a été enregistrée, et en attente de validation!. </h3>
+            <br>
+            <p>Nous vous enverrons une confirmation lorsque le colis sera expédié.</p>
+
+            <!--<ul>
+            <li *ngFor="let p of resFromServer.products">
+                <p>{{p.title}}</p>
+            </li>
+        </ul>-->
+
+
+
+
+
+        </div>
+
+
+
+    
+
+
+
+
+
+    </div>
+
+</div>

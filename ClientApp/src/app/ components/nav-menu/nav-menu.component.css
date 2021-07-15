@@ -1,0 +1,616 @@
+/*  ------------*/
+/*sticky header 2 and sidebar*/
+.sticky-header-2 {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 99999999 !important;
+}
+
+.sticky-sidebar {
+  position: fixed !important;
+  top: 80px !important;
+  height: calc(100vh - 82px) !important;
+}
+
+
+/*  ------------*/
+/*header 1*/
+.header-1 {
+  background: var(--grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+  border-bottom: 2px solid rgb(233,233,233);
+}
+
+  .header-1  #logo {
+    display: block;
+    height: 50px;
+    cursor:pointer;
+  }
+
+  .header-1 #logo_img {
+    height: auto;
+    width: 75px;
+    position: relative;
+    bottom: 15px;
+    cursor: pointer;
+  }
+  .header-1 .navcityname,
+  .header-1 .navdelivery {
+    margin-right: auto !important;
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--dark);
+    cursor: pointer;
+  }
+
+  .header-1 .navdelivery {
+    font-style: oblique;
+  }
+
+  .header-1 .search-box-container {
+    display: flex;
+    height: 5rem;
+    align-items: center;
+  }
+
+    .header-1 .search-box-container #search-box {
+      height: 100%;
+      width: 100%;
+      padding: 1rem;
+      font-size: 2rem;
+      border: 0.1rem solid rgba(0, 0, 0, 0.3);
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      text-transform: none;
+    }
+      .header-1 .search-box-container #search-box::placeholder {
+        color: var(--textgrey);
+      }
+      .header-1 .search-box-container label {
+        height: 100%;
+        width: 8rem;
+        font-size: 2.5rem;
+        line-height: 5rem;
+        color: white;
+        background: var(--light);
+        text-align: center;
+        cursor: pointer;
+        border-radius: 0 10px 10px 0;
+      }
+  .header-1 .search-box-container label:hover {
+        background: var(--dark);
+      }
+
+
+
+/*  ------------*/
+/*header 2*/
+.header-2 {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 99999999 !important;
+
+
+
+}
+
+  .header-2.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+  }
+
+
+  .header-2 .navbar a {
+    padding: 0.5rem 1.5rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    color: var(--dark);
+  }
+
+    .header-2 .navbar a:hover {
+      background: var(--light);
+      color: #fff;
+    }
+
+  .header-2 .icons a {
+    font-size: 2.5rem;
+    color: var(--light);
+  }
+
+    .header-2 .icons a:hover {
+      color: var(--dark);
+    }
+
+  .header-2 .icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+  }
+/*  .header-2 .user:first-letter {
+    text-transform:uppercase;
+  }*/
+
+  .header-2 #menu-bar {
+    font-size: 3rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--black);
+    padding: 0.8rem 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+    display: none;
+  }
+
+  .header-2 .icons-jb {
+    display: flex !important;
+    justify-content: space-around;
+    width: 300px;
+  }
+
+    .header-2 .icons-jb div {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+
+    .header-2 .icons-jb a {
+      text-align: center;
+    }
+
+  .header-2 .icons-jb a div {
+    margin: 1px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: gray;
+  }
+
+
+  .header-2 .small-drop {
+    display: inline-block;
+    position: relative;
+    font-size: 2rem;
+    color: Rgb(44,44,83);
+    cursor: pointer;
+  }
+
+  .header-2 .drop-list {
+    width: 115%;
+    list-style: none;
+    display: none;
+    position: absolute;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 15px;
+  }
+header-2 .drop-list li {
+  width:100%
+}
+.header-2 .drop-list a {
+  display: block;
+  font-size: 1.5rem;
+  padding: 15px;
+  border-radius: 0;
+  margin: 0;
+}
+
+  .header-2 .show-drop {
+    display: block;
+    padding:0;
+  }
+
+.profile-img{
+    height:40px;
+    border-radius:50%;
+    transition:0.5s;
+
+}
+.profile-img:hover {
+  cursor:pointer;
+  border:2px solid green;
+}
+
+
+.nb-items {
+  top: -15px;
+  right: -8px;
+  position: absolute;
+  background-color: #13c715;
+  color: white !important;
+  padding: 7px;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.nb-panier {
+  right: -13px;
+}
+
+
+
+/*------------*/
+/*@media for headers*/
+
+@media (max-width: 1400px) {
+  .header-1 .navdelivery,
+  .header-1 navcityname {
+    font-size: 3rem;
+  }
+
+  .header-1,
+  .header-2 {
+    padding: 2rem;
+  }
+
+
+}
+
+@media (max-width: 1050px) {
+
+  .header-1 #logo {
+    height: 35px;
+  }
+  .header-1 #logo_img {
+    width: 65px;
+  }
+  .header-1 .navcityname {
+    font-size: 3rem;
+  }
+
+  .header-1 .navdelivery,
+  .header-1 navcityname {
+    font-size: 2.5rem;
+  }
+
+
+
+  .header-1 .search-box-container {
+    height: 4rem;
+    max-width:250px;
+  }
+
+    .header-1 .search-box-container label {
+      font-size: 2rem;
+      line-height: 2;
+    }
+
+    .header-1 .search-box-container input::placeholder {
+      font-size: 1.5rem ;
+    }
+
+
+  .header-2 .navbar a {
+   
+    font-size: 1.5rem;
+  
+  }
+
+
+  .sticky-sidebar {
+    top: 69px !important;
+    height: calc(100vh - 72px) !important;
+  }
+
+
+
+}
+
+
+@media (max-width: 767px) {
+
+  .header-1 {
+    position: relative;
+    z-index: 999999;
+  }
+
+    .header-1 .navdelivery {
+      display: none;
+    }
+
+  .header-2 {
+    z-index: 0;
+  }
+
+    .header-2 #menu-bar {
+      display: initial;
+    }
+
+    .header-2 .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: rgb(221, 221, 221);
+      padding: 0.5rem 1rem;
+      margin-top: -550px;
+    }
+
+
+
+      .header-2 .navbar.active {
+        display: block;
+        margin-top: 0;
+      }
+
+      .header-2 .navbar a {
+        font-size: 2.5rem;
+        display: block;
+        text-align: center;
+        background: #fff;
+        padding: 2rem;
+        margin: 1.5rem 0;
+      }
+
+   
+    .header-2 .show-drop {
+      width: 100% ;
+      left:0;
+    }
+
+
+  .sticky-sidebar {
+    top: 73px !important;
+    height: calc(100vh - 75px) !important;
+  }
+
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading {
+    font-size: 3rem;
+  }
+
+  .header-1 {
+    flex-flow: column;
+  }
+
+    .header-1 .search-box-container {
+      width: 100%;
+      margin-top: 2rem;
+    }
+
+  .logo {
+    font-size: 4rem;
+  }
+
+
+
+  .navcityname {
+    margin: auto;
+  }
+}
+
+
+
+/*sidebar right side*/
+
+.sidebar-login {
+  margin-left: auto;
+  padding: 0;
+  width: 300px;
+  background-color: #f1f1f1;
+  height: calc(100vh - 172px);
+  overflow: hidden;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  transition: 0.3s;
+  position: absolute;
+  right: 0;
+  margin-top:2px;
+  z-index: 9999;
+  border-radius:5px 0 0 5px;
+}
+
+  .sidebar-login .fas{
+      cursor:pointer;
+  }
+  .sidebar-login div {
+    width: 100%;
+  }
+
+  .hide {
+    margin-right: -300px;
+    overflow: hidden;
+  }
+
+
+  .sidebar-login a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .sidebar-login .sidebar-login-title, .sidebar-login .sidebar-label {
+    color: Rgb(44,44,83);
+  }
+
+  .sidebar-login .sidebar-arrow {
+    float: left;
+    position: relative;
+    top: 6px;
+    left: 6px;
+    font-size: 3rem;
+    color: var(--light);
+    cursor:pointer;
+  }
+.sidebar-login .sidebar-arrow:hover {
+ 
+  color: var(--dark);
+}
+
+  .sidebar-login .sidebar-login-title {
+    text-align: center;
+    padding-top: 0.8rem;
+    
+    font-size: 2rem;
+    margin: 2rem;
+  }
+
+  .sidebar-login .sidebar-creercompte {
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid Rgb(2,113,220);
+    font-style: oblique;
+    color: Rgb(2,113,220);
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .sidebar-login .sidebar-login-connection-title {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .sidebar-login .sidebar-input, .sidebar-login .sidebar-label {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .sidebar-login .sidebar-input {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin: auto;
+    border: 1px solid Rgb(2,113,220);
+    width: 250px;
+    height: 35px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+  .sidebar-login .sidebar-label {
+    display: inline-block;
+    position: relative;
+    top: 17px;
+    left: 50px;
+    background-color: white;
+    font-size: 1.5rem;
+    font-style: oblique;
+  }
+
+  .sidebar-login .btn-sidebar-login {
+    position: relative;
+    display: block !important;
+    top: 3rem;
+    margin: auto;
+  }
+
+.sidebar-login img {
+  height: 50px;
+  width: auto;
+  position: relative;
+  bottom: 12px;
+}
+.sidebar-login ul{
+    text-align:left;
+    padding-left:1rem;
+}
+.sidebar-login ul li {
+  width: 100%;
+  margin: auto;
+  font-size: 1.5rem;
+  margin: 1.5rem;
+  padding-right:3rem;
+  list-style: none;
+  display:flex;
+  justify-content:space-between;
+}
+
+.panier-product{
+    display:flex !important;
+    justify-content:space-between;
+}
+.fa-caret-left, .fa-caret-right, .fa-minus-circle {
+
+  padding: 0rem 1rem;
+
+}
+
+
+
+
+/*------------*/
+/*@media for sidebar on the right*/
+@media (max-width: 1050px) {
+  .sidebar-login {
+    height: calc(100vh - 144px);
+  }
+}
+
+@media (max-width: 500px) {
+  .sidebar-login {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .hide {
+    margin-right: -500px;
+  }
+
+  .sidebar-login .sidebar-label {
+    left: 150px;
+  }
+
+  .sidebar-login .sidebar-arrow {
+    font-size: 4rem !important;
+  }
+
+  .sidebar-login .sidebar-login-title {
+    font-size: 3rem;
+  
+  }
+
+  .sidebar-login .sidebar-creercompte {
+    font-size: 2.1rem;
+   
+  }
+
+  .sidebar-login .btn{
+      font-size:3rem;
+      width:90%;
+      height:5rem;
+  }
+
+
+}
+
+
+
+/*  errors*/
+.errors {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  color: red;
+ 
+}
+
+.ng-submitted .ng-invalid {
+  border-color: red !important;
+}

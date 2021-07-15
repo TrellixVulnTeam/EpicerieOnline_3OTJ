@@ -1,0 +1,261 @@
+<header>
+    <!--Notification-->
+    <app-notification *ngIf="notificationLogin" class="theme-green">
+        <span class="msg-text-add">L'utilisateur a été connecté.</span>
+    </app-notification>
+
+    <app-notification *ngIf="notificationNewAccount" class="theme-green">
+        <span class="msg-text-add">Un nouveau compte a été créé.</span>
+    </app-notification>
+
+    <app-notification *ngIf="notificationLogout" class="theme-red">
+        <span class="msg-text-add">L'utilisateur a été deconnecté.</span>
+    </app-notification>
+
+    <app-notification *ngIf="notificationInvalidLoginOrPassword" class="theme-red">
+        <span class="msg-text-add">Identifiant ou mot de passe incorrect.</span>
+    </app-notification>
+
+    <app-notification *ngIf="notificationEmailAlreadyExists" class="theme-red">
+        <span class="msg-text-add">Cette adresse email existe déjà.</span>
+    </app-notification>
+
+    <app-notification *ngIf="notificationPasswordDontMatch" class="theme-red">
+        <span class="msg-text-add">Les mots de passe ne correspondent pas.</span>
+    </app-notification>
+
+    <app-notification *ngIf="notificationNoLogin" class="theme-red">
+        <span class="msg-text-add">Veuillez vous connecter.</span>
+    </app-notification>
+
+    <app-notification *ngIf="notificationNoValidEmail" class="theme-red">
+        <span class="msg-text-add">Adresse mail invalide.</span>
+    </app-notification>
+    <!--------------->
+
+    <div class="header-1">
+        <!-- <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>groco</a> -->
+        <div id="logo">
+            <img id="logo_img" src="../../../assets/images/point.png" alt="point gps" />
+        </div>
+        <span class="navcityname">Blois</span>
+
+        <span class="navdelivery">
+            Livraison Courses À Domicile
+            <i class="navcityname fas fa-shipping-fast"></i>
+        </span>
+
+        <form action="" class="search-box-container">
+            <input type="search"
+                   id="search-box"
+                   placeholder="Rechercher un produit" />
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+
+
+
+
+    <div class="header-2" [class.sticky-header-2]="isSticky">
+        <div id="menu-bar" class="fas fa-bars" (click)="toggle()"></div>
+
+        <nav class="navbar" [class.active]="isExpanded">
+            <a class="" href="#home">Accueil</a>
+            <a class="" href="#categories">Catégories</a>
+            <a class="" href="#category">Promotion</a>
+            <a class="" href="#contact">Contact</a>
+
+            <a class="small-drop " (click)="onDrop()">
+                Administrateur
+                <i class="fas fa-caret-down"></i>
+
+                <ul class="drop-list" [class.show-drop]="isDrop">
+                    <li><a routerLink="/admin/product/">Gestion des produits</a></li>
+                    <li><a routerLink="/admin/order/" href="#">Gestion des orders</a></li>
+                </ul>
+
+            </a>
+
+
+
+        </nav>
+
+        <!--NavBars Icons-->
+
+        <div class="icons icons-jb">
+
+            <div class="icon-box">
+                <a href="#" class="fas fa-shopping-cart" (click)="onSidebarMonpanier($event)">
+                    <div *ngIf="panierInfo.nbProducts == 0">Mon panier</div>
+                    <div *ngIf="panierInfo.nbProducts > 0">{{panierInfo.totalPrice | currency: "EUR"}} </div><div class="nb-items nb-panier" *ngIf="panierInfo.nbProducts > 0">{{panierInfo.nbProducts}}</div>
+                </a>
+            </div>
+
+            <div class="icon-box">
+                <a href="#" class="fas fa-heart" (click)="onSidebarFavorites($event)">
+                    <div>Favoris</div><div class="nb-items" *ngIf="favorites.nbFavorites > 0">{{favorites.nbFavorites}}</div>
+                </a>
+            </div>
+
+            <div class="icon-box">
+
+
+
+
+
+                <a *ngIf="!loginUser.logged" href="#" class="fas fa-user-circle" (click)="onSidebarLogin($event)">
+                    <div class="user">S'identifier</div>
+                </a>
+                <a *ngIf="loginUser.logged" href="#" class="fas fa-user-circle" (click)="logOut($event)">
+                    <div class="user">Logout</div>
+                </a>
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!--Sidebar Login-->
+
+
+    <div class="sidebar-login " [class.hide]="!isSidebar" [class.sticky-sidebar]="isSticky">
+
+        <div *ngIf="isSidebarLogin">
+            <i class="far fa-arrow-alt-circle-right sidebar-arrow" (click)="onSidebar($event)"></i>
+
+            <p *ngIf="!isSidebarChange" class="sidebar-login-title">Accéder à votre compte</p>
+            <p *ngIf="isSidebarChange" class="sidebar-login-title">Créer Un Compte</p>
+
+            <p *ngIf="!isSidebarChange" class="sidebar-creercompte" (click)="onSidebarSideChange()">Créer un compte</p>
+            <p *ngIf="isSidebarChange" class="sidebar-creercompte" (click)="onSidebarSideChange()">Accéder à votre compte</p>
+
+
+
+            <form *ngIf="!isSidebarChange" #f="ngForm" (ngSubmit)="logIn(f)" class="form-login">
+
+
+
+                <label class="sidebar-label" for="email">Email</label>
+                <input ngModel name="email"
+                       [(ngModel)]="customer.email"
+                       [class.ng-invalid]="notificationInvalidLoginOrPassword || notificationNoValidEmail"
+                       class="sidebar-input" type="text" id="email" required #email="ngModel" />
+
+                <label class="sidebar-label" for="mdp">Mot de passe</label>
+                <input ngModel name="password"
+                       [(ngModel)]="customer.password"
+                       [class.ng-invalid]="notificationInvalidLoginOrPassword"
+                       class="sidebar-input" type="text" id="password" required #password="ngModel" />
+
+                <button type="submit" class="btn btn-sidebar-login">Mes connecter</button>
+
+                <img *ngIf="isCustomerImage" src="../../../assets/images/customer_ok.png" alt="customer_ok" />
+
+
+
+
+            </form>
+
+
+            <form *ngIf="isSidebarChange" #f="ngForm" (ngSubmit)="register(f)" class="form-register">
+
+                <label class="sidebar-label" name="email" for="email">Email</label>
+                <input ngModel name="email"
+                       [(ngModel)]="customer.email"
+                       [class.ng-invalid]="notificationEmailAlreadyExists || notificationInvalidLoginOrPassword || notificationNoValidEmail "
+                       class="sidebar-input" type="text" id="email" required #email="ngModel" />
+                <br>
+                <label class="sidebar-label" for="mdp">Mot de passe</label>
+                <input ngModel name="password"
+                       [(ngModel)]="customer.password"
+                       [class.ng-invalid]="notificationPasswordDontMatch || notificationInvalidLoginOrPassword"
+                       class="sidebar-input" type="text" id="password" required #password="ngModel" />
+                <br>
+                <label class="sidebar-label" for="mdp">Confirm mot de passe</label>
+                <input ngModel name="password_2"
+                       [(ngModel)]="customer.password_2"
+                       [class.ng-invalid]="notificationPasswordDontMatch || notificationInvalidLoginOrPassword"
+                       class="sidebar-input" type="text" id="password_2" required #password_2="ngModel" />
+
+                <button type="submit" class="btn btn-sidebar-login">Créer Mon Compte</button>
+
+                <!--<div class="errors" *ngIf="">Les mots de passe ne correspondent pas</div>-->
+
+            </form>
+
+        </div>
+
+
+        <!--Sidebar Mes Favoris -->
+
+        <div *ngIf="isSidebarFavorites" style="text-align:center;">
+            <i class="far fa-arrow-alt-circle-right sidebar-arrow" (click)="onSidebar($event)"></i>
+
+            <p class="sidebar-login-title">Mes Produits Préférés </p>
+            <p class="sidebar-creercompte">La liste</p>
+
+            <ul>
+                <li class="panier-product" *ngFor="let p of pruductFavoris;let indexOfelement=index;">
+                    <span>{{p.title}}</span>
+
+                    <span>
+                        {{p.price | currency: "EUR"}}
+                        <i (click)="addToPanier(p)" class="fas fa-cart-arrow-down" style="color: rgb(22,199,19);margin:0.5rem;"></i>
+                        <i (click)="onDeleteFromFavorites(p.id)" class="fas fa-minus-circle" style="color: rgb(254,38,37);"></i>
+                    </span>
+
+                </li>
+            </ul>
+
+            <button (click)="addAllToPanier()" class="btn">Ajouter tout au panier</button>
+
+
+        </div>
+
+
+        <!-- Sidebar Mon Panier -->
+
+        <div *ngIf="isSidebarMonpanier" style="text-align:center;">
+            <i class="far fa-arrow-alt-circle-right sidebar-arrow" (click)="onSidebar($event)"></i>
+
+            <p class="sidebar-login-title">Mon Panier <i class="fas fa-shopping-cart" style="color: rgb(2,113,220);"></i> </p>
+            <p class="sidebar-creercompte">La liste ({{panierInfo.nbProducts}})</p>
+
+            <ul>
+                <li class="panier-product" *ngFor="let p of panierInfo.products;let indexOfelement=index;">
+                    <span>{{p.title}}</span>
+
+                    <span>
+                        <i class="fas fa-caret-left" style="cursor:pointer;" (click)="minus(p)"></i>
+                        {{p.quantity}}
+                        <i class="fas fa-caret-right" style="cursor:pointer;" (click)="plus(p)"></i>
+                        {{p.price | currency: "EUR"}}
+                        <i (click)="deleteFromPanier(p.id,p.price)" class="fas fa-minus-circle" style="color: rgb(254,38,37); cursor: pointer;"></i>
+                    </span>
+
+                </li>
+            </ul>
+
+            <button (click)="toCheckOut($event)" class="btn">Payer <i class="far fa-credit-card"></i> <span style="margin-left:0.5rem;">{{panierInfo.totalPrice | currency: "EUR"}}</span> </button>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+</header>
+
+<div *ngIf="isSticky" style="height:90px; display:inline-block;">anti-margin calapse </div>
+

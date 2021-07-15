@@ -1,0 +1,10 @@
+<div class="alert show" [class.hide]="isHide">
+    <span class="fas fa-exclamation-circle"></span>
+    <span class="msg">
+        <ng-content select=".msg-text-add"></ng-content>
+    </span>
+    <div class="close-btn" (click)="onHide()">
+        <span class="fas fa-times"></span>
+    </div>
+</div>
+
