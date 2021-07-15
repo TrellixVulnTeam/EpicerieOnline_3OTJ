@@ -68,14 +68,12 @@
     <None Remove="ClientApp\dist\ClientApp\assets\images\del_3.png" />
     <None Remove="ClientApp\dist\ClientApp\assets\images\auth_logo.png" />
     <None Remove="ClientApp\dist\ClientApp\assets\images\point.png" />
-    <None Remove="Auth\" />
     <None Remove="Microsoft.AspNetCore.Authentication.Cookies" />
     <None Remove="Microsoft.AspNetCore.Authentication.OpenIdConnect" />
     <None Remove="NLog.Web.AspNetCore" />
     <None Remove="Middleware\" />
     <None Remove="Exceptions\" />
     <None Remove="Swashbuckle.AspNetCore" />
-    <None Remove="DBSeeder\" />
     <None Remove="FluentValidation.AspNetCore" />
     <None Remove="Core\Models\Validators\" />
     <None Remove="Services\" />
@@ -91,10 +89,8 @@
     <Folder Include="ClientApp\src\app\services\" />
     <Folder Include="ClientApp\src\app\ components\admin\" />
     <Folder Include="ClientApp\src\assets\images\" />
-    <Folder Include="Auth\" />
     <Folder Include="Middleware\" />
     <Folder Include="Exceptions\" />
-    <Folder Include="DBSeeder\" />
     <Folder Include="Core\Models\Validators\" />
     <Folder Include="Services\" />
     <Folder Include="EmailSender\" />

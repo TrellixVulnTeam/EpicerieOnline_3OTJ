@@ -91,6 +91,9 @@ export class ProductFormComponent implements OnInit {
   notificationGreenNew = false;
   notificationGreenEdit = false;
   notificationRedAdmin = false;
+  notificationRedUrl = false;
+
+  notificationInvalidInput = false;
 
 
 
@@ -100,6 +103,13 @@ export class ProductFormComponent implements OnInit {
   sleep(time:any) {
     return new Promise((resolve) => setTimeout(resolve, time));
   }
+
+  //Check valid url
+
+  isValidURL(url:string) {
+    var res = url.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g);
+  return (res !== null)
+};
 
 
 
@@ -154,6 +164,31 @@ export class ProductFormComponent implements OnInit {
       }
 
       //Create new product
+
+  
+
+      this.product.description = this.product.description.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '') as string;
+      this.product.title = this.product.title.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '') as string;
+
+
+      //Check valid URL
+
+      if (!this.isValidURL(this.product.imageUrl)) {
+
+        this.notificationRedUrl = true;
+        this.notificationInvalidInput = true;
+        this.sleep(2500).then(() => {
+          this.notificationRedUrl = false;
+          this.notificationInvalidInput = false;
+
+        });
+        return;
+
+      }
+
+      
+
+
 
         this.productService.createProduct(this.product)
           .subscribe(res => {

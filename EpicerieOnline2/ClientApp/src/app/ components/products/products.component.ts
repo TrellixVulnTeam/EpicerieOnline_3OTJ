@@ -1,14 +1,21 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+
+//Services
+
 import { ProductService } from '../../services/product.service';
 import { CategoryService } from '../../services/category.service';
 import { PanierService } from '../../services/panier.service';
 import { FavoritesService } from '../../services/favorites.service';
 
-import { ActivatedRoute } from '@angular/router';
-import { Category } from '../../models/category';
+
+//Models
+
 import { PanierInfo } from '../../models/panierInfo';
 import { Product } from '../../models/product';
 import { Favorites } from '../../models/favorites';
+import { Category } from '../../models/category';
+
 
 
 

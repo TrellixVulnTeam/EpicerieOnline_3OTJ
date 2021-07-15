@@ -104,8 +104,9 @@ export class CheckOutComponent implements OnInit {
 
   submit(f: any) {
     this.order.customerId = this.loggedUser.id;
-    this.order.name = f.name;
+    this.order.name = f.name.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '') as string;
     this.order.address = `${f.adresse_1} ${f.adresse_2}, ${f.city} ${f.code_post}`;
+    this.order.address = this.order.address.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '') as string;
     //Delete properties not used (refactor after!)
 
     for (let i = 0; i < this.panierInfo.products.length; i++) {

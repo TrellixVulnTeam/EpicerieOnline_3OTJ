@@ -14,6 +14,10 @@
 <app-notification *ngIf="notificationRedAdmin" class="theme-red">
     <span class="msg-text-add">Vous devez être un administrateur pour effectuer cette opération.</span>
 </app-notification>
+
+<app-notification *ngIf="notificationRedUrl" class="theme-red">
+    <span class="msg-text-add">L'url n'est pas valide.</span>
+</app-notification>
 <!--------------->
 
 
@@ -32,7 +36,7 @@
 
         <label class="product-form-label" for="price">Prix</label>
         <div class="product-form-input-price">
-            <input class="product-form-input-price-item" [(ngModel)]="product.price" name="price" type="text" id="price" />
+            <input class="product-form-input-price-item" [(ngModel)]="product.price" name="price" type="number" id="price" />
 
             <label class="product-form-price-label" for="price">Unité</label>
             <select class="product-form-input-price-item" [(ngModel)]="product.unit" name="unit">
@@ -50,7 +54,7 @@
         </select>
 
         <label class="product-form-label" for="imageUrl">Photo</label>
-        <input class="product-form-input" [(ngModel)]="product.imageUrl" name="imageUrl" type="text" id="imageUrl" />
+        <input class="product-form-input" [class.ng-invalid]="notificationInvalidInput" [(ngModel)]="product.imageUrl" name="imageUrl" type="text" id="imageUrl" />
 
 
         <label class="product-form-label" for="description">Description</label>

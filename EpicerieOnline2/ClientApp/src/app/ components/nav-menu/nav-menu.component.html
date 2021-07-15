@@ -23,6 +23,10 @@
     <app-notification *ngIf="notificationPasswordDontMatch" class="theme-red">
         <span class="msg-text-add">Les mots de passe ne correspondent pas.</span>
     </app-notification>
+
+    <app-notification *ngIf="notificationNoLogin" class="theme-red">
+        <span class="msg-text-add">Veuillez vous connecter.</span>
+    </app-notification>
     <!--------------->
 
     <div class="header-1">
@@ -223,7 +227,7 @@
             <ul>
                 <li class="panier-product" *ngFor="let p of panierInfo.products;let indexOfelement=index;">
                     <span>{{p.title}}</span>
-                  
+
                     <span>
                         <i class="fas fa-caret-left" style="cursor:pointer;" (click)="minus(p)"></i>
                         {{p.quantity}}
@@ -235,7 +239,7 @@
                 </li>
             </ul>
 
-            <button (click)="onSidebar($event)"  routerLink="/check-out/"   class="btn">Payer <i class="far fa-credit-card"></i> <span style="margin-left:0.5rem;">{{panierInfo.totalPrice | currency: "EUR"}}</span> </button>
+            <button (click)="toCheckOut($event)" class="btn">Payer <i class="far fa-credit-card"></i> <span style="margin-left:0.5rem;">{{panierInfo.totalPrice | currency: "EUR"}}</span> </button>
 
 
         </div>

@@ -1,7 +1,9 @@
 import { Component, OnInit, HostListener, EventEmitter } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 //Import services
+
 import { CustomerService } from '../../services/customer.service';
 import { PanierService } from '../../services/panier.service';
 import { FavoritesService } from '../../services/favorites.service';
@@ -10,7 +12,10 @@ import { LoggerService } from '../../services/logger.service';
 
 
 
+
+
 //Import models
+
 import { Favorites } from '../../models/favorites';
 import { PanierInfo } from '../../models/panierInfo';
 import { Product } from '../../models/product';
@@ -73,6 +78,7 @@ export class NavMenuComponent {
 
 
   notificationLogin = false;
+  notificationNoLogin = false;
   notificationLogout = false;
   notificationNewAccount = false;
   notificationInvalidLoginOrPassword = false;
@@ -86,27 +92,20 @@ export class NavMenuComponent {
 
 
   constructor(
+
+    private router: Router,
     private customerService: CustomerService,
     private panierService: PanierService,
     private favoritesService: FavoritesService,
     private productService: ProductService,
     public logger: LoggerService
  
-  ) {
-
-    //Check ifuser is logged
-
-
- 
-
-
-  }
+  ) {  }
 
 
 
 
   ngOnInit() {
-
 
     //Check if user is logged
 
@@ -136,6 +135,8 @@ export class NavMenuComponent {
       })
 
 
+
+
       //Get favorites
 
     this.favorites = this.favoritesService.getFavoritesLocalStorage();
@@ -153,15 +154,13 @@ export class NavMenuComponent {
 
 
 
+
       //Get 'mon panier'
 
       this.panierService.$panier.subscribe((res: PanierInfo) => {
         this.panierInfo = res;
       })
       this.panierInfo = this.panierService.getProductsLocalStorage();
-
-
-
 
 
   }
@@ -340,6 +339,9 @@ export class NavMenuComponent {
 
 
 
+
+  //Add product to the panier from sidebar
+
   addProduct(p: Product, quantity: string) {
     if (+quantity > 5)
       quantity = '5';
@@ -349,15 +351,20 @@ export class NavMenuComponent {
 
 
 
+  //Delete product to the panier from sidebar
+
   onDelete(id: number, price: number) {
 
     this.panierService.deleteProductLocalStorage(id, price)
   }
 
+  //+1
 
   minus(p: Product) {
     this.addProduct(p, '-1');
   }
+
+  //-1
 
   plus(p: Product) {
     this.addProduct(p, '1');
@@ -412,7 +419,13 @@ export class NavMenuComponent {
       });
       return;
     }
-    
+
+
+    this.customer.email = this.customer.email.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '') as string;
+    this.customer.email = this.customer.email.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '') as string;
+
+    this.customer.password = this.customer.password
+
     this.logger.registerUser(this.customer)
 
     this.logger.isLogged$.subscribe((l: LoginUser) => {
@@ -444,8 +457,6 @@ export class NavMenuComponent {
 
     
     }
-     
-  
 
 
     this.logger.loginUser(this.customer);
@@ -491,8 +502,35 @@ export class NavMenuComponent {
       this.notificationLogout = false;
     });
 
+    
+
   }
 
+
+
+  //Send user to check-out page
+
+  toCheckOut($event:any) {
+
+    if (!this.logger.isLogged()) {
+
+      this.onSidebarLogin($event);
+
+      this.notificationNoLogin = true;
+      this.sleep(3000).then(() => {
+        this.notificationNoLogin = false;
+      });
+
+      return
+    }
+
+    this.onSidebar($event);
+
+    this.sleep(500).then(() => {
+      this.router.navigate(['/check-out']);
+
+    });
+  }
 
 
 

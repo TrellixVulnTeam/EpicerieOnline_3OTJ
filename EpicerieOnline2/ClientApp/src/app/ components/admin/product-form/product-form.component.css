@@ -231,3 +231,9 @@ textarea {
     width: 80%;
   }
 }
+
+
+
+.ng-submitted .ng-invalid {
+  border-color: red !important;
+}
