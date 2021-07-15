@@ -9,6 +9,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using EpicerieOnline2.Exceptions;
+using EpicerieOnline2.EmailSender;
 
 namespace EpicerieOnline2.Controllers
 {
@@ -20,12 +21,19 @@ namespace EpicerieOnline2.Controllers
         private readonly IMapper mapper;
         private readonly IOrderRepository repository;
         private readonly IUnitOfWork unitOfWork;
+        private  ISender email;
 
-        public OrdersController(IMapper mapper, IOrderRepository repository, IUnitOfWork unitOfWork)
+        public OrdersController(
+            IMapper mapper,
+            IOrderRepository repository,
+            IUnitOfWork unitOfWork,
+            ISender email
+            )
         {
             this.mapper = mapper;
             this.repository = repository;
             this.unitOfWork = unitOfWork;
+            this.email = email;
         }
 
         [HttpGet("{id}")]
@@ -52,7 +60,6 @@ namespace EpicerieOnline2.Controllers
         }
 
         [HttpPost()]
-        [Authorize]
         public async Task<IActionResult> CreateOrder([FromBody] SaveOrderResource orderResource)
         {
 
@@ -85,7 +92,10 @@ namespace EpicerieOnline2.Controllers
 
             await unitOfWork.CompleteAsync();
 
+            //Send confirmation email.
 
+            await email.SendEmailAsync();
+          
 
             order = await repository.GetOrder(order.Id);
             var result = mapper.Map<Order, OrderResource>(order);
@@ -96,7 +106,6 @@ namespace EpicerieOnline2.Controllers
 
 
         [HttpDelete("{id}")]
-        [Authorize]
         public async Task<IActionResult> DeleteOrder(int id)
         {
             var order = await repository.GetOrder(id);

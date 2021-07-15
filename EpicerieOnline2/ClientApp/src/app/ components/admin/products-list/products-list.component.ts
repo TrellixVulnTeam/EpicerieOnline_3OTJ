@@ -67,12 +67,20 @@ export class ProductsListComponent implements OnInit {
 
     //Check if admin
 
-    if (this.logger.isAdmin()) {
+    if (!this.logger.isAdmin()) {
+
+      //Notification no admin
+
+      this.notificationRedAdmin = true;
+      this.sleep(2500).then(() => {
+        this.notificationRedAdmin = false;
+      });
+      return;
+    }
 
       this.productService.deleteProduct(id).subscribe((res: number) => {
         this.productService.getProducts().subscribe((res: Product[]) => {
           this.filterProducts = this.products = res;
-
 
           //Notification all good
 
@@ -80,11 +88,7 @@ export class ProductsListComponent implements OnInit {
           this.sleep(2500).then(() => {
             this.notificationGreen = false;
           });
-
-
         })
-
-
       },
         err => {
 
@@ -96,18 +100,6 @@ export class ProductsListComponent implements OnInit {
           });
 
         });
-
-    } else {
-
-      //Notification no admin
-
-      this.notificationRedAdmin = true;
-          this.sleep(2500).then(() => {
-            this.notificationRedAdmin = false;
-          });
-
-    }
-
   }
 
 

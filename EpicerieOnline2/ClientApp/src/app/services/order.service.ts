@@ -65,4 +65,12 @@ export class OrderService {
     return this.http.put("/api/orders/" + order.id, order);
   }
 
+
+
+
+  //Delete order
+
+  deleteOrder(orderId:number): Observable<any>  {
+    return  this.http.delete("/api/orders/" + orderId);
+  }
 }

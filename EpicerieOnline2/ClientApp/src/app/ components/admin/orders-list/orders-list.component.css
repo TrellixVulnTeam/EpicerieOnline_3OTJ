@@ -25,17 +25,26 @@
 
 tbody tr:hover, tbody input[type=checkbox ]:hover {
   background-color: white;
-  cursor:pointer;
 }
 
 
 td {
   border-bottom: 1px solid grey;
+ position:relative;
 }
-
-.td-img, .td-price, .td-btn {
-  text-align: center;
-}
+  td .fa-trash-alt {
+    position: absolute;
+    left: 0;
+    padding: 0.5rem;
+    color: red;
+    font-size: 1rem;
+  }
+    td .fa-trash-alt:hover, td .fa-eye:hover {
+      cursor: pointer;
+    }
+    .td-img, .td-price, .td-btn {
+    text-align: center;
+  }
 
 td img {
   height: 75px;

@@ -25,7 +25,10 @@ import { LoginUser } from '../../../models/loginUser';
 })
 export class ProductFormComponent implements OnInit {
 
+
+
   constructor(
+
     private logger: LoggerService,
     private route: ActivatedRoute,
     private categoryService: CategoryService,
@@ -34,20 +37,11 @@ export class ProductFormComponent implements OnInit {
     route.params.subscribe(p => {
       if (p)
         this.productId = +p['id'];
-
-      //if (isNaN(this.vehicle) || this.vehicleId <= 0) {
-      //  router.navigate(['/vehicles']);
-      //  return;
-      //}
-
     });
-
-
   }
 
 
   ngOnInit() {
-
 
     this.categoryService.getCategories().subscribe((res: Category[]) => {
 
@@ -55,24 +49,17 @@ export class ProductFormComponent implements OnInit {
 
     })
 
-
     if (this.productId) {
       this.productService.getProduct(this.productId)
         .subscribe((res: Product) => {
 
           this.product = res;
 
-
-
         })
     }
-
-
-
-
-
-
   }
+
+
 
   categories: Category[];
 
@@ -105,13 +92,19 @@ export class ProductFormComponent implements OnInit {
   notificationGreenEdit = false;
   notificationRedAdmin = false;
 
-  //Sleep function for notification
+
+
+
+  //Sleep function for count down the display time notification
 
   sleep(time:any) {
     return new Promise((resolve) => setTimeout(resolve, time));
   }
-  //--------------------------------
 
+
+
+
+  //Create product
 
   addProduct() {
 
@@ -121,20 +114,7 @@ export class ProductFormComponent implements OnInit {
 
       //Check if user is admin
 
-      if (this.logger.isAdmin()) {
-        this.productService.updateProduct(this.product)
-          .subscribe((res: Product) => {
-            if (res) {
-              this.product = res;
-
-              this.notificationGreenEdit = true;
-
-              this.sleep(2500).then(() => {
-                this.notificationGreenEdit = false;
-              });
-            }
-          })
-      } else {
+      if (!this.logger.isAdmin()) {
 
         //Notification if no admin
 
@@ -143,37 +123,50 @@ export class ProductFormComponent implements OnInit {
           this.notificationRedAdmin = false;
         });
 
+        return;
+
       }
+        this.productService.updateProduct(this.product)
+          .subscribe((res: Product) => {
+            if (res) {
+              this.product = res;
 
-
+              this.notificationGreenEdit = true;
+              this.sleep(2500).then(() => {
+                this.notificationGreenEdit = false;
+              });
+            }
+          })
 
     } else {
 
       //Check if admin
 
-      if (this.logger.isAdmin()) {
-        this.productService.createProduct(this.product)
-          .subscribe(res => {
-            if (res) {
-              this.notificationGreenNew = true;
+      if (!this.logger.isAdmin()) {
 
-              this.sleep(2500).then(() => {
-                this.notificationGreenNew = false;
-              });
-            }
-          })
-
-      } else {
-
-         //Notification if no admin
+        //Notification if no admin
 
         this.notificationRedAdmin = true;
         this.sleep(2500).then(() => {
           this.notificationRedAdmin = false;
         });
-
-
+        return;
       }
+
+      //Create new product
+
+        this.productService.createProduct(this.product)
+          .subscribe(res => {
+            if (res) {
+
+              //Notification product created
+
+              this.notificationGreenNew = true;
+              this.sleep(2500).then(() => {
+                this.notificationGreenNew = false;
+              });
+            }
+          })
     }
   }
 

@@ -1,10 +1,15 @@
     <!--Notification-->
 <app-notification *ngIf="notificationValide" class="theme-green">
-    <span class="msg-text-add">La commande a été enregistrée.</span>
+    <span class="msg-text-add"> Un confirmation a été envoyé à l'utilisateur.</span>
 </app-notification>
 
+
 <app-notification *ngIf="notificationDelete" class="theme-red">
-    <span class="msg-text-add">Quelque chose s'est mal passé.</span>
+    <span class="msg-text-add">La commande a été supprimée.</span>
+</app-notification>
+
+<app-notification *ngIf="notificationAdminError" class="theme-red">
+    <span class="msg-text-add">Vous devez être un administrateur pour effectuer cette opération.</span>
 </app-notification>
 
 
@@ -38,7 +43,7 @@
     </thead>
     <tbody>
         <tr *ngFor="let o of orders">
-            <td class="td-img"><p>{{o.id}}</p></td>
+            <td class="td-img" ><i class="fas fa-trash-alt"(click)="delete(o)"></i><p>{{o.id}}</p></td>
             <td><p class="td-title">{{o.customer.id}} - {{o.name}}</p></td>
             <td class="td-price"><p>{{o.date}}</p> </td>
             <td class="td-price"><p>{{o.address}}</p> </td>

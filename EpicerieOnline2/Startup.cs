@@ -5,6 +5,7 @@ using EpicerieOnline2.Controllers.Resources;
 using EpicerieOnline2.Core;
 using EpicerieOnline2.Core.Models;
 using EpicerieOnline2.Core.Models.Validators;
+using EpicerieOnline2.EmailSender;
 using EpicerieOnline2.Middleware;
 using EpicerieOnline2.Persistence;
 using EpicerieOnline2.Services;
@@ -64,7 +65,7 @@ namespace EpicerieOnline2
             });
 
 
-
+            services.AddScoped<ISender, Sender>();
             services.AddScoped<IItemRepository<Product>, ProductRepository>();
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<IItemRepository<Category>, CategoryRepository>();
