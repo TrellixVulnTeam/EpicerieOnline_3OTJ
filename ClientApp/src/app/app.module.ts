@@ -16,6 +16,9 @@ import { ProductsComponent } from './ components/products/products.component';
 import { FooterComponent } from './ components/footer/footer.component';
 import { CheckOutComponent } from './ components/check-out/check-out.component';
 
+import { Router } from '@angular/router';
+
+
 
 
 
@@ -47,7 +50,7 @@ import { CheckOutComponent } from './ components/check-out/check-out.component';
    
   ],
   providers: [
-   
+    
   ],
   bootstrap: [AppComponent]
 })

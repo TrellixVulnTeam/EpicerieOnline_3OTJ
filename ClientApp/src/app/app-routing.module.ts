@@ -17,6 +17,8 @@ import { AuthGuard } from '@auth0/auth0-angular';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'products/:id', component: ProductsComponent },
+  { path: 'products', component: ProductsComponent },
+
 
   { path: 'check-out', component: CheckOutComponent },
 

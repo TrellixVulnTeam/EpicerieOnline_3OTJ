@@ -11,6 +11,7 @@
 
         <div class="products-box-search">
             <input #query
+                   (keyup)="filter(query.value)"
                    class="search-product"
                    type="search"
                    placeholder="Rechercher un produit..." />
@@ -69,7 +70,7 @@
 
         <div class="products-box-products-right product" id="product">
 
-            <div *ngFor="let p of products" class="product-card">
+            <div *ngFor="let p of filterProducts" class="product-card">
 
                 <div class="product-favorite">
                     <span class="price-price"> {{p.price | currency: "EUR"}}/ {{p.unit}} </span>

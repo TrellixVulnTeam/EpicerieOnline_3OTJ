@@ -49,8 +49,16 @@ export class ProductsComponent implements OnInit {
       //  router.navigate(['/vehicles']);
       //  return;
       //
-
     });
+
+    this.route.queryParams.subscribe((queryParams: any) => {
+      this.query = queryParams.prod;
+      
+    }); 
+
+
+
+
 
   }
 
@@ -74,6 +82,7 @@ export class ProductsComponent implements OnInit {
     nbFavorites: 0
   };
 
+  query: string = '';
   categoryId: number = 0;
   category: Category;
 
@@ -110,7 +119,26 @@ export class ProductsComponent implements OnInit {
 
         })
 
+    } else if (this.query) {
+      this.productService.getProducts()
+        .subscribe((res: Product[]) => {
+
+          this.filterProducts = (this.query) ?
+            res.filter(p => p.title?.toLowerCase().includes(this.query.toLowerCase())) :
+            res;
+
+          console.log("this.this.filterProducts", this.filterProducts);
+
+        })
+
+
+
     }
+
+
+
+
+
 
     this.panierService.$panier.subscribe((res: PanierInfo) => {
       this.panierInfo = res;
@@ -216,6 +244,18 @@ export class ProductsComponent implements OnInit {
 
     });
   }
+
+
+
+
+  //Fileter input search
+
+  filter(query: string) {
+    this.filterProducts = (query) ?
+      this.products.filter(p => p.title.toLowerCase().includes(query.toLowerCase())) :
+      this.products;
+  }
+
 
 
 

@@ -34085,3 +34085,2352 @@ Error Number:547,State:0,Class:16
 
 2021-07-15 12:49:19.5464|Error|✔ Browser application bundle generation complete.
 
+2021-07-15 13:04:15.3277|Info|Now listening on: https://localhost:5001
+2021-07-15 13:04:15.3955|Info|Now listening on: http://localhost:5000
+2021-07-15 13:04:15.4065|Info|Application started. Press Ctrl+C to shut down.
+2021-07-15 13:04:15.4093|Info|Hosting environment: Development
+2021-07-15 13:04:15.4122|Info|Content root path: /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2
+2021-07-15 13:04:20.2550|Error|- Generating browser application bundles (phase: setup)...
+
+2021-07-15 13:04:31.7498|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 16:14:25.1400|Info|Now listening on: https://localhost:5001
+2021-07-15 16:14:25.1750|Info|Now listening on: http://localhost:5000
+2021-07-15 16:14:25.1819|Info|Application started. Press Ctrl+C to shut down.
+2021-07-15 16:14:25.1844|Info|Hosting environment: Development
+2021-07-15 16:14:25.1878|Info|Content root path: /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2
+2021-07-15 16:14:31.1825|Error|- Generating browser application bundles (phase: setup)...
+
+2021-07-15 16:14:44.3324|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 16:24:31.7494|Info|Now listening on: https://localhost:5001
+2021-07-15 16:24:31.7951|Info|Now listening on: http://localhost:5000
+2021-07-15 16:24:31.8019|Info|Application started. Press Ctrl+C to shut down.
+2021-07-15 16:24:31.8051|Info|Hosting environment: Development
+2021-07-15 16:24:31.8082|Info|Content root path: /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2
+2021-07-15 16:24:35.9847|Error|- Generating browser application bundles (phase: setup)...
+
+2021-07-15 16:24:48.7945|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 16:39:37.6397|Info|Now listening on: https://localhost:5001
+2021-07-15 16:39:37.6914|Info|Now listening on: http://localhost:5000
+2021-07-15 16:39:37.6970|Info|Application started. Press Ctrl+C to shut down.
+2021-07-15 16:39:37.7010|Info|Hosting environment: Development
+2021-07-15 16:39:37.7064|Info|Content root path: /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2
+2021-07-15 16:39:43.8383|Error|- Generating browser application bundles (phase: setup)...
+
+2021-07-15 16:40:06.6329|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 16:43:18.6756|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 16:45:25.9963|Info|Now listening on: https://localhost:5001
+2021-07-15 16:45:26.0334|Info|Now listening on: http://localhost:5000
+2021-07-15 16:45:26.0380|Info|Application started. Press Ctrl+C to shut down.
+2021-07-15 16:45:26.0471|Info|Hosting environment: Development
+2021-07-15 16:45:26.0505|Info|Content root path: /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2
+2021-07-15 16:45:30.7388|Error|- Generating browser application bundles (phase: setup)...
+
+2021-07-15 16:45:44.0516|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 16:55:12.8909|Info|Now listening on: https://localhost:5001
+2021-07-15 16:55:12.9771|Info|Now listening on: http://localhost:5000
+2021-07-15 16:55:12.9838|Info|Application started. Press Ctrl+C to shut down.
+2021-07-15 16:55:12.9876|Info|Hosting environment: Development
+2021-07-15 16:55:12.9912|Info|Content root path: /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2
+2021-07-15 16:55:17.5973|Error|- Generating browser application bundles (phase: setup)...
+
+2021-07-15 16:55:31.1846|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:17:36.5563|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:17:36.6567|Error|Error: src/app/ components/products/products.component.html:14:29 - error TS2339: Property 'filter' does not exist on type 'ProductsComponent'.
+
+2021-07-15 17:17:36.7061|Error|14                    (keyup)="filter(query.value)"
+
+2021-07-15 17:17:36.7090|Error|                               ~~~~~~
+
+2021-07-15 17:17:36.7126|Error|  src/app/ components/products/products.component.ts:28:16
+
+2021-07-15 17:17:36.7160|Error|    28   templateUrl: './products.component.html',
+
+2021-07-15 17:17:36.7199|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:17:36.7226|Error|    Error occurs in the template of component ProductsComponent.
+
+2021-07-15 17:18:16.5308|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:18:16.5467|Error|Error: src/app/ components/products/products.component.html:14:29 - error TS2339: Property 'filter' does not exist on type 'ProductsComponent'.
+
+2021-07-15 17:18:16.5870|Error|14                    (keyup)="filter(query.value)"
+
+2021-07-15 17:18:16.6103|Error|                               ~~~~~~
+
+2021-07-15 17:18:16.6137|Error|  src/app/ components/products/products.component.ts:28:16
+
+2021-07-15 17:18:16.6167|Error|    28   templateUrl: './products.component.html',
+
+2021-07-15 17:18:16.6198|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:18:16.6283|Error|    Error occurs in the template of component ProductsComponent.
+
+2021-07-15 17:18:47.2058|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:22:05.6614|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:22:12.1718|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:34:45.9460|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:34:45.9496|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:55:13 - error NG5002: Opening tag "label" not terminated.
+
+2021-07-15 17:34:45.9526|Error|55             <label for="search-box"
+
+2021-07-15 17:34:45.9551|Error|               ~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:34:45.9585|Error|56                    class="fas fa-search"
+
+2021-07-15 17:34:45.9614|Error|   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:34:45.9645|Error|57                    [routerLink]="['/products'"
+
+2021-07-15 17:34:45.9674|Error|   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:34:45.9703|Error|58                    [queryParams]="{prod: query}"]"></label>
+
+2021-07-15 17:34:45.9732|Error|   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:34:45.9766|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:34:46.0281|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:34:46.1114|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:34:46.1153|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:34:46.1223|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:58:52 - error NG5002: Unexpected closing tag "label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+2021-07-15 17:34:46.1256|Error|58                    [queryParams]="{prod: query}"]"></label>
+
+2021-07-15 17:34:46.1292|Error|                                                      ~~~~~~~~
+
+2021-07-15 17:34:46.1361|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:34:46.1406|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:34:46.1435|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:34:46.1482|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:00.9271|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:35:00.9414|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:57:34 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:00.9445|Error|57                    [routerLink]="['/products'"
+
+2021-07-15 17:35:00.9475|Error|                                    ~~~~~~~~~~~~
+
+2021-07-15 17:35:00.9507|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:00.9554|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:00.9585|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:00.9617|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:00.9648|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:58:35 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:00.9683|Error|58                    [queryParams]="{prod: query}"></label>
+
+2021-07-15 17:35:00.9715|Error|                                     ~~~~~~~~~~~~~
+
+2021-07-15 17:35:00.9742|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:00.9768|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:00.9803|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:00.9846|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:00.9878|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:65:52 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:00.9912|Error|65     <div class="header-2" [class.sticky-header-2]="isSticky">
+
+2021-07-15 17:35:00.9940|Error|                                                      ~~~~~~~~
+
+2021-07-15 17:35:00.9997|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.0033|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.0085|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.0117|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.0165|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:66:57 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.0202|Error|66         <div id="menu-bar" class="fas fa-bars" (click)="toggle()"></div>
+
+2021-07-15 17:35:01.0253|Error|                                                           ~~~~~~~~
+
+2021-07-15 17:35:01.0282|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.0326|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.0351|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.0608|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.0658|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:68:45 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.0704|Error|68         <nav class="navbar" [class.active]="isExpanded">
+
+2021-07-15 17:35:01.1158|Error|                                               ~~~~~~~~~~
+
+2021-07-15 17:35:01.1418|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.1474|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.1525|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.1555|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.1581|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:74:45 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.1830|Error|74             <a class="small-drop " (click)="onDrop()">
+
+2021-07-15 17:35:01.1872|Error|                                               ~~~~~~~~
+
+2021-07-15 17:35:01.1947|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.2212|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.2403|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.2436|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.2606|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:78:58 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.2654|Error|78                 <ul class="drop-list" [class.show-drop]="isDrop">
+
+2021-07-15 17:35:01.2767|Error|                                                            ~~~~~~
+
+2021-07-15 17:35:01.2825|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.2864|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.2902|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.2936|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.2972|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:94:67 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.3007|Error|94                 <a href="#" class="fas fa-shopping-cart" (click)="onSidebarMonpanier($event)">
+
+2021-07-15 17:35:01.3046|Error|                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.3079|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.3113|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.3144|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.3169|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.3193|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:95:26 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.3218|Error|95                     <div *ngIf="panierInfo.nbProducts == 0">Mon panier</div>
+
+2021-07-15 17:35:01.3243|Error|                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.3265|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.3291|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.3317|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.3341|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.3365|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:96:26 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.3389|Error|96                     <div *ngIf="panierInfo.nbProducts > 0">{{panierInfo.totalPrice | currency: "EUR"}} </div><div class="nb-items nb-panier" *ngIf="panierInfo.nbProducts > 0">{{panierInfo.nbProducts}}</div>
+
+2021-07-15 17:35:01.3413|Error|                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.3438|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.3464|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.3487|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.3511|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.3557|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:96:60 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.3607|Error|96                     <div *ngIf="panierInfo.nbProducts > 0">{{panierInfo.totalPrice | currency: "EUR"}} </div><div class="nb-items nb-panier" *ngIf="panierInfo.nbProducts > 0">{{panierInfo.nbProducts}}</div>
+
+2021-07-15 17:35:01.3640|Error|                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.3680|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.3723|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.3749|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.3777|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.3823|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:96:142 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.4294|Error|96                     <div *ngIf="panierInfo.nbProducts > 0">{{panierInfo.totalPrice | currency: "EUR"}} </div><div class="nb-items nb-panier" *ngIf="panierInfo.nbProducts > 0">{{panierInfo.nbProducts}}</div>
+
+2021-07-15 17:35:01.4390|Error|                                                                                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.4486|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.4516|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.4548|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.4579|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.4611|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:96:176 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.4640|Error|96                     <div *ngIf="panierInfo.nbProducts > 0">{{panierInfo.totalPrice | currency: "EUR"}} </div><div class="nb-items nb-panier" *ngIf="panierInfo.nbProducts > 0">{{panierInfo.nbProducts}}</div>
+
+2021-07-15 17:35:01.4679|Error|                                                                                                                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.4709|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.4738|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.4766|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.4792|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.4842|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:101:59 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.4873|Error|101                 <a href="#" class="fas fa-heart" (click)="onSidebarFavorites($event)">
+
+2021-07-15 17:35:01.4903|Error|                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.4930|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.4972|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.4998|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.5025|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.5056|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:102:61 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.5085|Error|102                     <div>Favoris</div><div class="nb-items" *ngIf="favorites.nbFavorites > 0">{{favorites.nbFavorites}}</div>
+
+2021-07-15 17:35:01.5111|Error|                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.5144|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.5174|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.5198|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.5226|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.5253|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:102:95 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.5280|Error|102                     <div>Favoris</div><div class="nb-items" *ngIf="favorites.nbFavorites > 0">{{favorites.nbFavorites}}</div>
+
+2021-07-15 17:35:01.5308|Error|                                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.5336|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.5367|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.5393|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.5422|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.5448|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:112:20 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.5485|Error|112                 <a *ngIf="!loginUser.logged" href="#" class="fas fa-user-circle" (click)="onSidebarLogin($event)">
+
+2021-07-15 17:35:01.5512|Error|                       ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.5541|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.5570|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.5607|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.5639|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.5670|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:112:91 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.5697|Error|112                 <a *ngIf="!loginUser.logged" href="#" class="fas fa-user-circle" (click)="onSidebarLogin($event)">
+
+2021-07-15 17:35:01.5725|Error|                                                                                              ~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.5750|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.5778|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.5806|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.5836|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.5883|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:115:20 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.5914|Error|115                 <a *ngIf="loginUser.logged" href="#" class="fas fa-user-circle" (click)="logOut($event)">
+
+2021-07-15 17:35:01.5949|Error|                       ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.5976|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.6002|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.6030|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.6058|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.6107|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:115:90 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.6135|Error|115                 <a *ngIf="loginUser.logged" href="#" class="fas fa-user-circle" (click)="logOut($event)">
+
+2021-07-15 17:35:01.6161|Error|                                                                                             ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.6194|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.6226|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.6274|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.6321|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.6355|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:134:47 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.6384|Error|134     <div class="sidebar-login " [class.hide]="!isSidebar" [class.sticky-sidebar]="isSticky">
+
+2021-07-15 17:35:01.6410|Error|                                                  ~~~~~~~~~~
+
+2021-07-15 17:35:01.6440|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.6475|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.6530|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.6561|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.6588|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:134:83 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.6622|Error|134     <div class="sidebar-login " [class.hide]="!isSidebar" [class.sticky-sidebar]="isSticky">
+
+2021-07-15 17:35:01.6653|Error|                                                                                      ~~~~~~~~
+
+2021-07-15 17:35:01.6698|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.6727|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.6755|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.6784|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.6818|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:136:14 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.6850|Error|136         <div *ngIf="isSidebarLogin">
+
+2021-07-15 17:35:01.6888|Error|                 ~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.6934|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.7010|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.7038|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.7063|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.7093|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:137:77 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.7124|Error|137             <i class="far fa-arrow-alt-circle-right sidebar-arrow" (click)="onSidebar($event)"></i>
+
+2021-07-15 17:35:01.7153|Error|                                                                                ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.7181|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.7208|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.7237|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.7266|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.7289|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:139:16 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.7327|Error|139             <p *ngIf="!isSidebarChange" class="sidebar-login-title">Accéder à votre compte</p>
+
+2021-07-15 17:35:01.7352|Error|                   ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.7380|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.7406|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.7436|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.7465|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.7502|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:140:16 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.7530|Error|140             <p *ngIf="isSidebarChange" class="sidebar-login-title">Créer Un Compte</p>
+
+2021-07-15 17:35:01.7558|Error|                   ~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.7584|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.7614|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.7643|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.7671|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.7703|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:142:16 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.7732|Error|142             <p *ngIf="!isSidebarChange" class="sidebar-creercompte" (click)="onSidebarSideChange()">Créer un compte</p>
+
+2021-07-15 17:35:01.7767|Error|                   ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.7794|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.7829|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.7857|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.7883|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.7912|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:142:78 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.7952|Error|142             <p *ngIf="!isSidebarChange" class="sidebar-creercompte" (click)="onSidebarSideChange()">Créer un compte</p>
+
+2021-07-15 17:35:01.7986|Error|                                                                                 ~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.8013|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.8045|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.8071|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.8103|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.8132|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:143:16 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.8163|Error|143             <p *ngIf="isSidebarChange" class="sidebar-creercompte" (click)="onSidebarSideChange()">Accéder à votre compte</p>
+
+2021-07-15 17:35:01.8194|Error|                   ~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.8225|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.8249|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.8275|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.8301|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.8337|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:143:77 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.8362|Error|143             <p *ngIf="isSidebarChange" class="sidebar-creercompte" (click)="onSidebarSideChange()">Accéder à votre compte</p>
+
+2021-07-15 17:35:01.8389|Error|                                                                                ~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.8415|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.8441|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.8466|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.8500|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.8523|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:147:19 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.8551|Error|147             <form *ngIf="!isSidebarChange" #f="ngForm" (ngSubmit)="logIn(f)" class="form-login">
+
+2021-07-15 17:35:01.8577|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.8605|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.8632|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.8668|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.8693|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.8720|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:147:68 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.8748|Error|147             <form *ngIf="!isSidebarChange" #f="ngForm" (ngSubmit)="logIn(f)" class="form-login">
+
+2021-07-15 17:35:01.8775|Error|                                                                       ~~~~~~~~
+
+2021-07-15 17:35:01.8801|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.8832|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.8856|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.8891|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.8915|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:153:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.8949|Error|153                        [(ngModel)]="customer.email"
+
+2021-07-15 17:35:01.8979|Error|                                        ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.9006|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.9030|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.9056|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.9081|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.9107|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:153:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.9133|Error|153                        [(ngModel)]="customer.email"
+
+2021-07-15 17:35:01.9167|Error|                                        ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.9192|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.9217|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.9244|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.9269|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.9296|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:154:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.9324|Error|154                        [class.ng-invalid]="notificationInvalidLoginOrPassword || notificationNoValidEmail"
+
+2021-07-15 17:35:01.9350|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.9379|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.9405|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.9430|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.9456|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.9482|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:159:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.9507|Error|159                        [(ngModel)]="customer.password"
+
+2021-07-15 17:35:01.9533|Error|                                        ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.9564|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.9590|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.9614|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.9639|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.9666|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:159:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.9692|Error|159                        [(ngModel)]="customer.password"
+
+2021-07-15 17:35:01.9718|Error|                                        ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.9743|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.9768|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.9795|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.9819|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:01.9848|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:160:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:01.9875|Error|160                        [class.ng-invalid]="notificationInvalidLoginOrPassword"
+
+2021-07-15 17:35:01.9901|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:01.9926|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:01.9966|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:01.9992|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.0018|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.0046|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:165:22 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.0071|Error|165                 <img *ngIf="isCustomerImage" src="../../../assets/images/customer_ok.png" alt="customer_ok" />
+
+2021-07-15 17:35:02.0098|Error|                         ~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.0123|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.0150|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.0176|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.0202|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.0228|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:173:19 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.0256|Error|173             <form *ngIf="isSidebarChange" #f="ngForm" (ngSubmit)="register(f)" class="form-register">
+
+2021-07-15 17:35:02.0283|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.0308|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.0334|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.0372|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.0397|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.0425|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:173:67 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.0451|Error|173             <form *ngIf="isSidebarChange" #f="ngForm" (ngSubmit)="register(f)" class="form-register">
+
+2021-07-15 17:35:02.0477|Error|                                                                      ~~~~~~~~~~~
+
+2021-07-15 17:35:02.0503|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.0527|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.0554|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.0582|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.0609|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:177:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.0636|Error|177                        [(ngModel)]="customer.email"
+
+2021-07-15 17:35:02.0662|Error|                                        ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.0691|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.0718|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.0746|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.0779|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.0806|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:177:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.0831|Error|177                        [(ngModel)]="customer.email"
+
+2021-07-15 17:35:02.0858|Error|                                        ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.0882|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.0914|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.0940|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.0979|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.1005|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:178:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.1031|Error|178                        [class.ng-invalid]="notificationEmailAlreadyExists || notificationInvalidLoginOrPassword || notificationNoValidEmail "
+
+2021-07-15 17:35:02.1058|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.1085|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.1115|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.1147|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.1178|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.1214|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:183:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.1240|Error|183                        [(ngModel)]="customer.password"
+
+2021-07-15 17:35:02.1265|Error|                                        ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.1289|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.1315|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.1341|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.1370|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.1395|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:183:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.1420|Error|183                        [(ngModel)]="customer.password"
+
+2021-07-15 17:35:02.1447|Error|                                        ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.1472|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.1500|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.1525|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.1549|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.1574|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:184:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.1601|Error|184                        [class.ng-invalid]="notificationPasswordDontMatch || notificationInvalidLoginOrPassword"
+
+2021-07-15 17:35:02.1625|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.1650|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.1676|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.1702|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.1730|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.1755|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:189:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.1780|Error|189                        [(ngModel)]="customer.password_2"
+
+2021-07-15 17:35:02.1805|Error|                                        ~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.1828|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.1854|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.1879|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.1907|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.1931|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:189:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.1955|Error|189                        [(ngModel)]="customer.password_2"
+
+2021-07-15 17:35:02.1995|Error|                                        ~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.2020|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.2058|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.2119|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.2179|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.2221|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:190:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.2276|Error|190                        [class.ng-invalid]="notificationPasswordDontMatch || notificationInvalidLoginOrPassword"
+
+2021-07-15 17:35:02.2304|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.2732|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.2779|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.2840|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.2874|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.2909|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:204:14 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.2956|Error|204         <div *ngIf="isSidebarFavorites" style="text-align:center;">
+
+2021-07-15 17:35:02.3014|Error|                 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.3046|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.3081|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.3106|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.3135|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.3163|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:205:77 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.3192|Error|205             <i class="far fa-arrow-alt-circle-right sidebar-arrow" (click)="onSidebar($event)"></i>
+
+2021-07-15 17:35:02.3224|Error|                                                                                ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.3251|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.3278|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.3308|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.3332|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.3364|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:211:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.3401|Error|211                 <li class="panier-product" *ngFor="let p of pruductFavoris;let indexOfelement=index;">
+
+2021-07-15 17:35:02.3436|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.3469|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.3497|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.3525|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.3554|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.3585|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:212:27 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.3613|Error|212                     <span>{{p.title}}</span>
+
+2021-07-15 17:35:02.3640|Error|                              ~~~~~~~~~~~
+
+2021-07-15 17:35:02.3669|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.3700|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.3724|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.3752|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.3781|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:215:25 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.3810|Error|215                         {{p.price | currency: "EUR"}}
+
+2021-07-15 17:35:02.3840|Error|                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.3863|Error|216                         <i (click)="addToPanier(p)" class="fas fa-cart-arrow-down" style="color: rgb(22,199,19);margin:0.5rem;"></i>
+
+2021-07-15 17:35:02.3895|Error|    ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.3923|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.3965|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.3999|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.4030|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.4056|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:216:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.4088|Error|216                         <i (click)="addToPanier(p)" class="fas fa-cart-arrow-down" style="color: rgb(22,199,19);margin:0.5rem;"></i>
+
+2021-07-15 17:35:02.4117|Error|                                        ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.4145|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.4171|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.4198|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.4234|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.4265|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:217m:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.4291|Error|217                         <i (click)="onDeleteFromFavorites(p.id)" class="fas fa-minus-circle" style="color: rgb(254,38,37);"></i>
+
+2021-07-15 17:35:02.4325|Error|                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.4353|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.4385|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.4413|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.4440|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.4474|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:223:30 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.4509|Error|223             <button (click)="addAllToPanier()" class="btn">Ajouter tout au panier</button>
+
+2021-07-15 17:35:02.4535|Error|                                 ~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.4563|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.4592|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.4631|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.4660|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.4688|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:231:14 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.4717|Error|231         <div *ngIf="isSidebarMonpanier" style="text-align:center;">
+
+2021-07-15 17:35:02.4741|Error|                 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.4769|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.4796|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.4831|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.4862|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.4890|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:232:77 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.4918|Error|232             <i class="far fa-arrow-alt-circle-right sidebar-arrow" (click)="onSidebar($event)"></i>
+
+2021-07-15 17:35:02.4952|Error|                                                                                ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.4984|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.5011|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.5040|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.5073|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.5104|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:235:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.5131|Error|235             <p class="sidebar-creercompte">La liste ({{panierInfo.nbProducts}})</p>
+
+2021-07-15 17:35:02.5164|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.5192|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.5220|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.5249|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.5277|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.5311|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:238:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.5339|Error|238                 <li class="panier-product" *ngFor="let p of panierInfo.products;let indexOfelement=index;">
+
+2021-07-15 17:35:02.5368|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.5398|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.5426|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.5457|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.5492|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.5518|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:239:27 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.5545|Error|239                     <span>{{p.title}}</span>
+
+2021-07-15 17:35:02.5576|Error|                              ~~~~~~~~~~~
+
+2021-07-15 17:35:02.5611|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.5648|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.5680|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.5710|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.5737|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:242:87 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.5767|Error|242                         <i class="fas fa-caret-left" style="cursor:pointer;" (click)="minus(p)"></i>
+
+2021-07-15 17:35:02.5793|Error|                                                                                          ~~~~~~~~
+
+2021-07-15 17:35:02.5825|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.5852|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.5878|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.5906|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.5938|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:243:25 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.5965|Error|243                         {{p.quantity}}
+
+2021-07-15 17:35:02.5995|Error|                            ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.6025|Error|244                         <i class="fas fa-caret-right" style="cursor:pointer;" (click)="plus(p)"></i>
+
+2021-07-15 17:35:02.6055|Error|    ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.6096|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.6125|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.6158|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.6183|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.6209|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:244:88 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.6236|Error|244                         <i class="fas fa-caret-right" style="cursor:pointer;" (click)="plus(p)"></i>
+
+2021-07-15 17:35:02.6264|Error|                                                                                           ~~~~~~~
+
+2021-07-15 17:35:02.6293|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.6327|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.6357|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.6387|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.6416|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:245:25 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.6443|Error|245                         {{p.price | currency: "EUR"}}
+
+2021-07-15 17:35:02.6471|Error|                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.6505|Error|246                         <i (click)="deleteFromPanier(p.id,p.price)" class="fas fa-minus-circle" style="color: rgb(254,38,37); cursor: pointer;"></i>
+
+2021-07-15 17:35:02.6535|Error|    ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.6565|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.6592|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.6624|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.6651|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.6677|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:246:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.6706|Error|246                         <i (click)="deleteFromPanier(p.id,p.price)" class="fas fa-minus-circle" style="color: rgb(254,38,37); cursor: pointer;"></i>
+
+2021-07-15 17:35:02.6733|Error|                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.6759|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.6789|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.6816|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.6843|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.6869|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:252:30 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.6897|Error|252             <button (click)="toCheckOut($event)" class="btn">Payer <i class="far fa-credit-card"></i> <span style="margin-left:0.5rem;">{{panierInfo.totalPrice | currency: "EUR"}}</span> </button>
+
+2021-07-15 17:35:02.6923|Error|                                 ~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.6958|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.6985|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.7014|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.7042|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.7069|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:252:137 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.7095|Error|252             <button (click)="toCheckOut($event)" class="btn">Payer <i class="far fa-credit-card"></i> <span style="margin-left:0.5rem;">{{panierInfo.totalPrice | currency: "EUR"}}</span> </button>
+
+2021-07-15 17:35:02.7127|Error|                                                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.7157|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.7186|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.7211|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.7245|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:02.7270|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:266:6 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:02.7298|Error|266 <div *ngIf="isSticky" style="height:90px; display:inline-block;">anti-margin calapse </div>
+
+2021-07-15 17:35:02.7323|Error|         ~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.7351|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:02.7382|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:02.7410|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:02.7436|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:30.6403|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:35:30.6459|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:57:34 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:30.6493|Error|57                    [routerLink]="['/products'"
+
+2021-07-15 17:35:30.6532|Error|                                    ~~~~~~~~~~~~
+
+2021-07-15 17:35:30.6563|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:30.6592|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:30.6636|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:30.6676|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:30.6707|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:58:35 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:30.6762|Error|58                    [queryParams]="{prod: query}"
+
+2021-07-15 17:35:30.6796|Error|                                     ~~~~~~~~~~~~~
+
+2021-07-15 17:35:30.6825|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:30.6865|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:30.6894|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:30.6931|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:30.6967|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:66:52 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:30.7013|Error|66     <div class="header-2" [class.sticky-header-2]="isSticky">
+
+2021-07-15 17:35:30.7047|Error|                                                      ~~~~~~~~
+
+2021-07-15 17:35:30.7079|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:30.7334|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:30.7368|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:30.7592|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:30.7624|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:67:57 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:30.7668|Error|67         <div id="menu-bar" class="fas fa-bars" (click)="toggle()"></div>
+
+2021-07-15 17:35:30.7939|Error|                                                           ~~~~~~~~
+
+2021-07-15 17:35:30.8009|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:30.8424|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:30.8508|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:30.8576|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:30.8652|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:69:45 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:30.8700|Error|69         <nav class="navbar" [class.active]="isExpanded">
+
+2021-07-15 17:35:30.8735|Error|                                               ~~~~~~~~~~
+
+2021-07-15 17:35:30.8773|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:30.8814|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:30.8853|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:30.8886|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:30.8927|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:75:45 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:30.8960|Error|75             <a class="small-drop " (click)="onDrop()">
+
+2021-07-15 17:35:30.8989|Error|                                               ~~~~~~~~
+
+2021-07-15 17:35:30.9040|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:30.9102|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:30.9145|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:30.9193|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:30.9235|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:79:58 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:30.9341|Error|79                 <ul class="drop-list" [class.show-drop]="isDrop">
+
+2021-07-15 17:35:30.9461|Error|                                                            ~~~~~~
+
+2021-07-15 17:35:30.9499|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:30.9541|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:30.9590|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:30.9651|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:30.9691|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:95:67 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:30.9745|Error|95                 <a href="#" class="fas fa-shopping-cart" (click)="onSidebarMonpanier($event)">
+
+2021-07-15 17:35:30.9781|Error|                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:30.9832|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:30.9961|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.0006|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.0064|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.0110|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:96:26 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.0150|Error|96                     <div *ngIf="panierInfo.nbProducts == 0">Mon panier</div>
+
+2021-07-15 17:35:31.0210|Error|                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.0264|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.0343|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.0381|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.0408|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.0441|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:97:26 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.0481|Error|97                     <div *ngIf="panierInfo.nbProducts > 0">{{panierInfo.totalPrice | currency: "EUR"}} </div><div class="nb-items nb-panier" *ngIf="panierInfo.nbProducts > 0">{{panierInfo.nbProducts}}</div>
+
+2021-07-15 17:35:31.0532|Error|                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.0570|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.0607|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.0637|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.0706|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.0737|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:97:60 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.0765|Error|97                     <div *ngIf="panierInfo.nbProducts > 0">{{panierInfo.totalPrice | currency: "EUR"}} </div><div class="nb-items nb-panier" *ngIf="panierInfo.nbProducts > 0">{{panierInfo.nbProducts}}</div>
+
+2021-07-15 17:35:31.0806|Error|                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.0835|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.0894|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.0932|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.1085|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.1148|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:97:142 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.1189|Error|97                     <div *ngIf="panierInfo.nbProducts > 0">{{panierInfo.totalPrice | currency: "EUR"}} </div><div class="nb-items nb-panier" *ngIf="panierInfo.nbProducts > 0">{{panierInfo.nbProducts}}</div>
+
+2021-07-15 17:35:31.1242|Error|                                                                                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.1282|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.1320|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.1827|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.1871|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.1905|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:97:176 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.1935|Error|97                     <div *ngIf="panierInfo.nbProducts > 0">{{panierInfo.totalPrice | currency: "EUR"}} </div><div class="nb-items nb-panier" *ngIf="panierInfo.nbProducts > 0">{{panierInfo.nbProducts}}</div>
+
+2021-07-15 17:35:31.1981|Error|                                                                                                                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.2082|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.2255|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.2458|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.2597|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.2887|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:102:59 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.3175|Error|102                 <a href="#" class="fas fa-heart" (click)="onSidebarFavorites($event)">
+
+2021-07-15 17:35:31.3311|Error|                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.3356|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.3409|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.3458|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.3486|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.3544|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:103:61 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.3580|Error|103                     <div>Favoris</div><div class="nb-items" *ngIf="favorites.nbFavorites > 0">{{favorites.nbFavorites}}</div>
+
+2021-07-15 17:35:31.3649|Error|                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.3678|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.3711|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.3761|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.3794|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.3837|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:103:95 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.3876|Error|103                     <div>Favoris</div><div class="nb-items" *ngIf="favorites.nbFavorites > 0">{{favorites.nbFavorites}}</div>
+
+2021-07-15 17:35:31.3903|Error|                                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.3928|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.3979|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.4010|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.4038|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.4075|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:113:20 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.4104|Error|113                 <a *ngIf="!loginUser.logged" href="#" class="fas fa-user-circle" (click)="onSidebarLogin($event)">
+
+2021-07-15 17:35:31.4133|Error|                       ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.4165|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.4199|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.4226|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.4260|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.4287|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:113:91 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.4316|Error|113                 <a *ngIf="!loginUser.logged" href="#" class="fas fa-user-circle" (click)="onSidebarLogin($event)">
+
+2021-07-15 17:35:31.4350|Error|                                                                                              ~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.4378|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.4404|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.4430|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.4456|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.4492|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:116:20 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.4520|Error|116                 <a *ngIf="loginUser.logged" href="#" class="fas fa-user-circle" (click)="logOut($event)">
+
+2021-07-15 17:35:31.4554|Error|                       ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.4581|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.4610|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.4639|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.4667|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.4694|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:116:90 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.4725|Error|116                 <a *ngIf="loginUser.logged" href="#" class="fas fa-user-circle" (click)="logOut($event)">
+
+2021-07-15 17:35:31.4753|Error|                                                                                             ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.4779|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.4806|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.4840|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.4867|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.4894|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:135:47 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.4923|Error|135     <div class="sidebar-login " [class.hide]="!isSidebar" [class.sticky-sidebar]="isSticky">
+
+2021-07-15 17:35:31.4961|Error|                                                  ~~~~~~~~~~
+
+2021-07-15 17:35:31.4991|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.5015|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.5043|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.5072|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.5100|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:135:83 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.5129|Error|135     <div class="sidebar-login " [class.hide]="!isSidebar" [class.sticky-sidebar]="isSticky">
+
+2021-07-15 17:35:31.5156|Error|                                                                                      ~~~~~~~~
+
+2021-07-15 17:35:31.5186|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.5214|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.5240|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.5269|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.5298|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:137:14 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.5327|Error|137         <div *ngIf="isSidebarLogin">
+
+2021-07-15 17:35:31.5354|Error|                 ~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.5385|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.5414|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.5442|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.5468|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.5497|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:138:77 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.5523|Error|138             <i class="far fa-arrow-alt-circle-right sidebar-arrow" (click)="onSidebar($event)"></i>
+
+2021-07-15 17:35:31.5552|Error|                                                                                ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.5581|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.5609|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.5639|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.5669|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.5696|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:140:16 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.5722|Error|140             <p *ngIf="!isSidebarChange" class="sidebar-login-title">Accéder à votre compte</p>
+
+2021-07-15 17:35:31.5756|Error|                   ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.5790|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.5817|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.5845|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.5884|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.5916|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:141:16 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.5944|Error|141             <p *ngIf="isSidebarChange" class="sidebar-login-title">Créer Un Compte</p>
+
+2021-07-15 17:35:31.5972|Error|                   ~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.6000|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.6028|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.6055|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.6082|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.6114|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:143:16 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.6144|Error|143             <p *ngIf="!isSidebarChange" class="sidebar-creercompte" (click)="onSidebarSideChange()">Créer un compte</p>
+
+2021-07-15 17:35:31.6171|Error|                   ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.6199|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.6226|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.6256|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.6284|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.6311|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:143:78 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.6354|Error|143             <p *ngIf="!isSidebarChange" class="sidebar-creercompte" (click)="onSidebarSideChange()">Créer un compte</p>
+
+2021-07-15 17:35:31.6387|Error|                                                                                 ~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.6413|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.6442|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.6475|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.6499|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.6530|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:144:16 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.6557|Error|144             <p *ngIf="isSidebarChange" class="sidebar-creercompte" (click)="onSidebarSideChange()">Accéder à votre compte</p>
+
+2021-07-15 17:35:31.6587|Error|                   ~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.6617|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.6645|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.6677|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.6707|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.6736|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:144:77 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.6762|Error|144             <p *ngIf="isSidebarChange" class="sidebar-creercompte" (click)="onSidebarSideChange()">Accéder à votre compte</p>
+
+2021-07-15 17:35:31.6789|Error|                                                                                ~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.6821|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.6847|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.6876|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.6904|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.6941|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:148:19 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.6972|Error|148             <form *ngIf="!isSidebarChange" #f="ngForm" (ngSubmit)="logIn(f)" class="form-login">
+
+2021-07-15 17:35:31.6998|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.7024|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.7053|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.7083|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.7111|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.7139|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:148:68 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.7166|Error|148             <form *ngIf="!isSidebarChange" #f="ngForm" (ngSubmit)="logIn(f)" class="form-login">
+
+2021-07-15 17:35:31.7193|Error|                                                                       ~~~~~~~~
+
+2021-07-15 17:35:31.7229|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.7254|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.7281|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.7306|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.7339|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:154:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.7366|Error|154                        [(ngModel)]="customer.email"
+
+2021-07-15 17:35:31.7394|Error|                                        ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.7419|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.7448|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.7481|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.7510|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.7540|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:154:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.7572|Error|154                        [(ngModel)]="customer.email"
+
+2021-07-15 17:35:31.7601|Error|                                        ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.7634|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.7661|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.7690|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.7719|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.7748|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:155:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.7779|Error|155                        [class.ng-invalid]="notificationInvalidLoginOrPassword || notificationNoValidEmail"
+
+2021-07-15 17:35:31.7808|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.7834|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.7862|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.7890|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.7923|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.7962|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:160:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.7991|Error|160                        [(ngModel)]="customer.password"
+
+2021-07-15 17:35:31.8026|Error|                                        ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.8054|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.8080|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.8111|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.8142|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.8168|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:160:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.8196|Error|160                        [(ngModel)]="customer.password"
+
+2021-07-15 17:35:31.8223|Error|                                        ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.8258|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.8284|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.8310|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.8338|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.8368|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:161:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.8398|Error|161                        [class.ng-invalid]="notificationInvalidLoginOrPassword"
+
+2021-07-15 17:35:31.8426|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.8459|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.8487|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.8513|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.8540|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.8576|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:166:22 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.8603|Error|166                 <img *ngIf="isCustomerImage" src="../../../assets/images/customer_ok.png" alt="customer_ok" />
+
+2021-07-15 17:35:31.8633|Error|                         ~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.8659|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.8697|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.8725|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.8751|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.8779|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:174:19 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.8822|Error|174             <form *ngIf="isSidebarChange" #f="ngForm" (ngSubmit)="register(f)" class="form-register">
+
+2021-07-15 17:35:31.8850|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.8875|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.8913|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.8946|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.8974|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.9001|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:174:67 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.9035|Error|174             <form *ngIf="isSidebarChange" #f="ngForm" (ngSubmit)="register(f)" class="form-register">
+
+2021-07-15 17:35:31.9060|Error|                                                                      ~~~~~~~~~~~
+
+2021-07-15 17:35:31.9095|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.9124|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.9154|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.9181|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.9216|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:178:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.9246|Error|178                        [(ngModel)]="customer.email"
+
+2021-07-15 17:35:31.9277|Error|                                        ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.9310|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.9349|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.9388|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.9419|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.9462|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:178:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.9494|Error|178                        [(ngModel)]="customer.email"
+
+2021-07-15 17:35:31.9527|Error|                                        ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.9553|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.9585|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.9610|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.9647|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.9671|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:179:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.9698|Error|179                        [class.ng-invalid]="notificationEmailAlreadyExists || notificationInvalidLoginOrPassword || notificationNoValidEmail "
+
+2021-07-15 17:35:31.9725|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.9752|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.9778|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:31.9804|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.9830|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:31.9856|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:184:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:31.9884|Error|184                        [(ngModel)]="customer.password"
+
+2021-07-15 17:35:31.9911|Error|                                        ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:31.9940|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:31.9977|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.0006|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.0031|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.0057|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:184:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.0082|Error|184                        [(ngModel)]="customer.password"
+
+2021-07-15 17:35:32.0110|Error|                                        ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.0140|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.0168|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.0201|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.0231|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.0256|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:185:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.0282|Error|185                        [class.ng-invalid]="notificationPasswordDontMatch || notificationInvalidLoginOrPassword"
+
+2021-07-15 17:35:32.0308|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.0463|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.0495|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.0523|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.0551|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.0582|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:190:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.0608|Error|190                        [(ngModel)]="customer.password_2"
+
+2021-07-15 17:35:32.1068|Error|                                        ~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.1106|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.1144|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.1178|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.1220|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.1271|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:190:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.1316|Error|190                        [(ngModel)]="customer.password_2"
+
+2021-07-15 17:35:32.1369|Error|                                        ~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.1411|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.1449|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.1479|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.1510|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.1535|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:191:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.1567|Error|191                        [class.ng-invalid]="notificationPasswordDontMatch || notificationInvalidLoginOrPassword"
+
+2021-07-15 17:35:32.1597|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.1641|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.1669|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.1700|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.1727|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.1757|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:205:14 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.1788|Error|205         <div *ngIf="isSidebarFavorites" style="text-align:center;">
+
+2021-07-15 17:35:32.1816|Error|                 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.1842|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.1869|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.1900|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.1928|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.1964|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:206:77 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.2010|Error|206             <i class="far fa-arrow-alt-circle-right sidebar-arrow" (click)="onSidebar($event)"></i>
+
+2021-07-15 17:35:32.2043|Error|                                                                                ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.2073|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.2103|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.2133|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.2159|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.2188|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:212:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.2216|Error|212                 <li class="panier-product" *ngFor="let p of pruductFavoris;let indexOfelement=index;">
+
+2021-07-15 17:35:32.2246|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.2277|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.2312|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.2342|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.2392|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.2420|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:213:27 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.2453|Error|213                     <span>{{p.title}}</span>
+
+2021-07-15 17:35:32.2481|Error|                              ~~~~~~~~~~~
+
+2021-07-15 17:35:32.2517|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.2543|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.2571|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.2597|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.2636|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:216:25 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.2663|Error|216                         {{p.price | currency: "EUR"}}
+
+2021-07-15 17:35:32.2693|Error|                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.2723|Error|217                         <i (click)="addToPanier(p)" class="fas fa-cart-arrow-down" style="color: rgb(22,199,19);margin:0.5rem;"></i>
+
+2021-07-15 17:35:32.2752|Error|    ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.2784|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.2812|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.2841|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.2877|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.2912|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:217:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.2942|Error|217                         <i (click)="addToPanier(p)" class="fas fa-cart-arrow-down" style="color: rgb(22,199,19);margin:0.5rem;"></i>
+
+2021-07-15 17:35:32.2970|Error|                                        ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.3001|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.3038|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.3077|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.3110|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.3142|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:218:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.3169|Error|218                         <i (click)="onDeleteFromFavorites(p.id)" class="fas fa-minus-circle" style="color: rgb(254,38,37);"></i>
+
+2021-07-15 17:35:32.3196|Error|                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.3224|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.3250|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.3279|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.3307|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.3339|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:224:30 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.3372|Error|224             <button (click)="addAllToPanier()" class="btn">Ajouter tout au panier</button>
+
+2021-07-15 17:35:32.3402|Error|                                 ~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.3433|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.3469|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.3499|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.3535|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.3564|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:232:14 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.3592|Error|232         <div *ngIf="isSidebarMonpanier" style="text-align:center;">
+
+2021-07-15 17:35:32.3635|Error|                 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.3665|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.3696|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.3731|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.3770|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.3795|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:233:77 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.3824|Error|233             <i class="far fa-arrow-alt-circle-right sidebar-arrow" (click)="onSidebar($event)"></i>
+
+2021-07-15 17:35:32.3852|Error|                                                                                ~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.3891|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.3922|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.3951|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.3985|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.4013|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:236:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.4052|Error|236             <p class="sidebar-creercompte">La liste ({{panierInfo.nbProducts}})</p>
+
+2021-07-15 17:35:32.4083|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.4115|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.4151|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.4185|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.4221|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.4251|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:239:44 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.4282|Error|239                 <li class="panier-product" *ngFor="let p of panierInfo.products;let indexOfelement=index;">
+
+2021-07-15 17:35:32.4323|Error|                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.4356|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.4385|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.4464|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.4497|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.4527|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:240:27 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.4597|Error|240                     <span>{{p.title}}</span>
+
+2021-07-15 17:35:32.4636|Error|                              ~~~~~~~~~~~
+
+2021-07-15 17:35:32.4677|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.4709|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.4736|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.4782|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.4813|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:243:87 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.4842|Error|243                         <i class="fas fa-caret-left" style="cursor:pointer;" (click)="minus(p)"></i>
+
+2021-07-15 17:35:32.4871|Error|                                                                                          ~~~~~~~~
+
+2021-07-15 17:35:32.4908|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.4950|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.4997|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.5024|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.5060|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:244:25 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.5095|Error|244                         {{p.quantity}}
+
+2021-07-15 17:35:32.5130|Error|                            ~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.5159|Error|245                         <i class="fas fa-caret-right" style="cursor:pointer;" (click)="plus(p)"></i>
+
+2021-07-15 17:35:32.5187|Error|    ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.5214|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.5239|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.5265|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.5299|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.5324|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:245:88 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.5352|Error|245                         <i class="fas fa-caret-right" style="cursor:pointer;" (click)="plus(p)"></i>
+
+2021-07-15 17:35:32.5378|Error|                                                                                           ~~~~~~~
+
+2021-07-15 17:35:32.5411|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.5439|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.5466|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.5493|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.5519|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:246:25 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.5545|Error|246                         {{p.price | currency: "EUR"}}
+
+2021-07-15 17:35:32.5572|Error|                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.5600|Error|247                         <i (click)="deleteFromPanier(p.id,p.price)" class="fas fa-minus-circle" style="color: rgb(254,38,37); cursor: pointer;"></i>
+
+2021-07-15 17:35:32.5631|Error|    ~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.5659|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.5687|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.5712|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.5738|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.5765|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:247:37 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.5797|Error|247                         <i (click)="deleteFromPanier(p.id,p.price)" class="fas fa-minus-circle" style="color: rgb(254,38,37); cursor: pointer;"></i>
+
+2021-07-15 17:35:32.5823|Error|                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.5852|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.5878|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.5905|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.5932|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.5960|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:253:30 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.5989|Error|253             <button (click)="toCheckOut($event)" class="btn">Payer <i class="far fa-credit-card"></i> <span style="margin-left:0.5rem;">{{panierInfo.totalPrice | currency: "EUR"}}</span> </button>
+
+2021-07-15 17:35:32.6014|Error|                                 ~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.6040|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.6266|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.6308|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.6348|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.6382|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:253:137 - error NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.6409|Error|253             <button (click)="toCheckOut($event)" class="btn">Payer <i class="far fa-credit-card"></i> <span style="margin-left:0.5rem;">{{panierInfo.totalPrice | currency: "EUR"}}</span> </button>
+
+2021-07-15 17:35:32.6442|Error|                                                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.6472|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.6500|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.6528|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.6553|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:32.6579|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:267:6 - error0m NG5002: Parser Error: Missing expected ] at the end of the expression [['/products'] in /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/ClientApp/src/app/ components/nav-menu/nav-menu.component.html@56:33
+
+2021-07-15 17:35:32.6610|Error|267 <div *ngIf="isSticky" style="height:90px; display:inline-block;">anti-margin calapse </div>
+
+2021-07-15 17:35:32.6638|Error|         ~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.6664|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:35:32.6691|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:35:32.6717|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:35:32.6743|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:35:47.7980|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:36:45.3736|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:37:19.5094|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:38:00.1773|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:38:00.2043|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:56:28 - error TS2339: Property 'search' does not exist on type 'NavMenuComponent'.
+
+2021-07-15 17:38:00.2071|Error|56                   (click)="search(query)"
+
+2021-07-15 17:38:00.2110|Error|                              ~~~~~~
+
+2021-07-15 17:38:00.2154|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:38:00.2181|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:38:00.2244|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:38:00.2493|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:38:53.2949|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:38:53.3002|Error|Error: src/app/ components/nav-menu/nav-menu.component.html:56:35 - error TS2345: Argument of type 'HTMLInputElement' is not assignable to parameter of type 'string'.
+
+2021-07-15 17:38:53.3040|Error|56                   (click)="search(query)"
+
+2021-07-15 17:38:53.3069|Error|                                     ~~~~~
+
+2021-07-15 17:38:53.3340|Error|  src/app/ components/nav-menu/nav-menu.component.ts:32:16
+
+2021-07-15 17:38:53.3500|Error|    32   templateUrl: './nav-menu.component.html',
+
+2021-07-15 17:38:53.3642|Error|                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:38:53.3682|Error|    Error occurs in the template of component NavMenuComponent.
+
+2021-07-15 17:39:22.3167|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:41:53.8434|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:42:26.4052|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:42:39.1458|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:43:02.4406|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:43:26.3423|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:43:57.3791|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:47:11.0149|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:47:14.8888|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:47:43.5382|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:51:41.8309|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:51:41.8367|Error|Error: src/app/ components/products/products.component.ts:54:52 - error TS2304: Cannot find name 'Params'.
+
+2021-07-15 17:51:41.8401|Error|54     this.route.queryParams.subscribe((queryParams: Params) => {
+
+2021-07-15 17:51:41.8430|Error|                                                      ~~~~~~
+
+2021-07-15 17:51:41.8454|Error|Error: src/app/ components/products/products.component.ts:55:12 - error TS2339: Property 'acctType' does not exist on type 'ProductsComponent'.
+
+2021-07-15 17:51:41.8484|Error|55       this.acctType = queryParams['accttype']
+
+2021-07-15 17:51:41.8519|Error|              ~~~~~~~~
+
+2021-07-15 17:51:51.9906|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:51:51.9971|Error|Error: src/app/ components/products/products.component.ts:54:52 - error TS2304: Cannot find name 'Params'.
+
+2021-07-15 17:51:52.0009|Error|54     this.route.queryParams.subscribe((queryParams: Params) => {
+
+2021-07-15 17:51:52.0040|Error|                                                      ~~~~~~
+
+2021-07-15 17:51:59.7555|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:51:59.7810|Error|Error: src/app/ components/products/products.component.ts:54:38 - error TS2769: No overload matches this call.
+
+2021-07-15 17:51:59.7873|Error|  Overload 1 of 5, '(observer?: PartialObserver<Params>): Subscription', gave the following error.
+
+2021-07-15 17:51:59.7933|Error|    Argument of type '(queryParams: string) => void' is not assignable to parameter of type 'PartialObserver<Params>'.
+
+2021-07-15 17:51:59.7970|Error|      Property 'complete' is missing in type '(queryParams: string) => void' but required in type 'CompletionObserver<Params>'.
+
+2021-07-15 17:51:59.8001|Error|  Overload 2 of 5, '(next?: (value: Params) => void, error?: (error: any) => void, complete?: () => void): Subscription', gave the following error.
+
+2021-07-15 17:51:59.8060|Error|    Argument of type '(queryParams: string) => void' is not assignable to parameter of type '(value: Params) => void'.
+
+2021-07-15 17:51:59.8096|Error|      Types of parameters 'queryParams' and 'value' are incompatible.
+
+2021-07-15 17:51:59.8126|Error|        Type 'Params' is not assignable to type 'string'.
+
+2021-07-15 17:51:59.8158|Error|54     this.route.queryParams.subscribe((queryParams: string) => {
+
+2021-07-15 17:51:59.8193|Error|                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:51:59.8496|Error|  node_modules/rxjs/internal/types.d.ts:73:5
+
+2021-07-15 17:51:59.8542|Error|    73     complete: () => void;
+
+2021-07-15 17:51:59.8570|Error|           ~~~~~~~~
+
+2021-07-15 17:51:59.8660|Error|    'complete' is declared here.
+
+2021-07-15 17:51:59.8702|Error|Error: src/app/ components/products/products.component.ts:55:32 - error TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'.
+
+2021-07-15 17:51:59.8740|Error|55       this.query = queryParams['prod']
+
+2021-07-15 17:51:59.8822|Error|                                  ~~~~~~
+
+2021-07-15 17:52:10.7927|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:52:10.7996|Error|Error: src/app/ components/products/products.component.ts:54:38 - error TS2769: No overload matches this call.
+
+2021-07-15 17:52:10.8024|Error|  Overload 1 of 5, '(observer?: PartialObserver<Params>): Subscription', gave the following error.
+
+2021-07-15 17:52:10.8057|Error|    Argument of type '(queryParams: string) => void' is not assignable to parameter of type 'PartialObserver<Params>'.
+
+2021-07-15 17:52:10.8084|Error|      Property 'complete' is missing in type '(queryParams: string) => void' but required in type 'CompletionObserver<Params>'.
+
+2021-07-15 17:52:10.8117|Error|  Overload 2 of 5, '(next?: (value: Params) => void, error?: (error: any) => void, complete?: () => void): Subscription', gave the following error.
+
+2021-07-15 17:52:10.8147|Error|    Argument of type '(queryParams: string) => void' is not assignable to parameter of type '(value: Params) => void'.
+
+2021-07-15 17:52:10.8177|Error|      Types of parameters 'queryParams' and 'value' are incompatible.
+
+2021-07-15 17:52:10.8204|Error|        Type 'Params' is not assignable to type 'string'.
+
+2021-07-15 17:52:10.8234|Error|54     this.route.queryParams.subscribe((queryParams: string) => {
+
+2021-07-15 17:52:10.8288|Error|                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-07-15 17:52:10.8317|Error|  node_modules/rxjs/internal/types.d.ts:73:5
+
+2021-07-15 17:52:10.8370|Error|    73     complete: () => void;
+
+2021-07-15 17:52:10.8405|Error|           ~~~~~~~~
+
+2021-07-15 17:52:10.8438|Error|    'complete' is declared here.
+
+2021-07-15 17:52:36.8807|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:52:56.8280|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:53:59.3165|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:59:07.3189|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 17:59:07.3443|Error|Error: src/app/ components/products/products.component.ts:127:122 - error TS1005: ')' expected.
+
+2021-07-15 17:59:07.3473|Error|127           this.filterProducts = this.products = res.filter(p => p.title?.toLowerCase().includes(this.query.toLowerCase());
+
+2021-07-15 17:59:07.3530|Error|                                                                                                                             ~
+
+2021-07-15 17:59:35.8211|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 18:00:31.4927|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 18:01:51.5266|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 18:02:28.0053|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 18:03:42.5642|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 18:04:28.9204|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 18:04:28.9497|Error|Error: src/app/ components/products/products.component.ts:126:16 - error TS2339: Property 'this' does not exist on type 'ProductsComponent'.
+
+2021-07-15 18:04:28.9533|Error|126           this.this.filterProducts = this.products = res.filter(p => p.title.toLowerCase().includes(this.query.toLowerCase()));
+
+2021-07-15 18:04:28.9575|Error|                   ~~~~
+
+2021-07-15 18:05:15.4246|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 18:06:20.9208|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 18:07:19.7747|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 18:08:45.0581|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 18:13:11.2420|Error|✔ Browser application bundle generation complete.
+
+2021-07-15 18:24:09.0014|Info|Now listening on: https://localhost:5001
+2021-07-15 18:24:09.0361|Info|Now listening on: http://localhost:5000
+2021-07-15 18:24:09.0408|Info|Application started. Press Ctrl+C to shut down.
+2021-07-15 18:24:09.0438|Info|Hosting environment: Development
+2021-07-15 18:24:09.0480|Info|Content root path: /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2
+2021-07-15 18:24:13.1496|Error|- Generating browser application bundles (phase: setup)...
+
+2021-07-15 18:24:25.1929|Error|✔ Browser application bundle generation complete.
+

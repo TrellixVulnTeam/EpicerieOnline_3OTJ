@@ -115,7 +115,7 @@ export class ProductsListComponent implements OnInit {
 
 
 
-
+  //Fileter input search
 
   filter(query: string) {
     this.filterProducts = (query) ?

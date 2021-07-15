@@ -81,6 +81,8 @@
     <None Remove="FluentEmail.Smtp" />
     <None Remove="EmailSender\" />
     <None Remove="FluentEmail.Core" />
+    <None Remove="ClientApp\dist\ClientApp\main.fff14a2c5015f9988cee.js" />
+    <None Remove="ClientApp\dist\ClientApp\styles.6bc2968a6f62f1427898.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />

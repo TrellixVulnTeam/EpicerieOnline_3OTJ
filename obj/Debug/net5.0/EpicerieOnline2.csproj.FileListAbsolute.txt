@@ -12,6 +12,8 @@
 /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/bin/Debug/net5.0/EpicerieOnline2.Views.pdb
 /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/bin/Debug/net5.0/AutoMapper.dll
 /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/bin/Debug/net5.0/FluentEmail.Core.dll
+/Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/bin/Debug/net5.0/FluentEmail.Smtp.dll
 /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/bin/Debug/net5.0/FluentValidation.dll
 /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/bin/Debug/net5.0/FluentValidation.AspNetCore.dll
 /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/bin/Debug/net5.0/FluentValidation.DependencyInjectionExtensions.dll
@@ -86,6 +88,3 @@
 /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/obj/Debug/net5.0/ref/EpicerieOnline2.dll
 /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/obj/Debug/net5.0/EpicerieOnline2.pdb
 /Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/obj/Debug/net5.0/EpicerieOnline2.genruntimeconfig.cache
-/Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/obj/Debug/net5.0/EpicerieOnline2.csproj.AssemblyReference.cache
-/Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/bin/Debug/net5.0/FluentEmail.Core.dll
-/Users/jacekbialek/Projects/EpicerieOnline2/EpicerieOnline2/bin/Debug/net5.0/FluentEmail.Smtp.dll

@@ -45,7 +45,7 @@ namespace EpicerieOnline2.Middleware
                 _logger.LogError(e, e.Message);
 
                 httpContext.Response.StatusCode = 500;
-                await httpContext.Response.WriteAsync("Something went wrong!");
+                await httpContext.Response.WriteAsync("Something went wrong!:" + e.Message);
             }
         }
     }

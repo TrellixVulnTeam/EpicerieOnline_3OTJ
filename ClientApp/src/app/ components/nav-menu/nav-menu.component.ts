@@ -569,4 +569,17 @@ export class NavMenuComponent {
 
 
 
+  //Search in navbar
+  search(query: string) {
+
+
+    this.router.navigate(['./products/'], { queryParams: { prod: query } })
+      .then(() => {
+        window.location.reload();
+      });
+
+  }
+
+
+
 }

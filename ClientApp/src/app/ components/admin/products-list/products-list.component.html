@@ -36,15 +36,7 @@
                     class="select-categories">
                 <option value="">Tout</option>
                 <option *ngFor="let c of categories" value="{{c.id}}">{{c.name}}</option>
-
-                <!--<option *ngFor="let c of categories" [value]="c.idcategory">
-
-                </option>-->
             </select>
-            <!--<div *ngIf="category?.touched && category?.invalid"
-                 class="alert alert-danger">
-                Category is required.
-            </div>-->
         </div>
 
 
